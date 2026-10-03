@@ -1,0 +1,7 @@
+{
+  "manifest": "C:\\Users\\Hngk\\Documents\\Codex\\PUMA_STAGE2\\Exploration_8_Diversity_Aware_Wider_Field_and_Boundary_Optimization\\INPUTS\\QUICK_BENCHMARK\\EXPLORATION8_QUICK_MANIFEST.csv",
+  "output_root": "C:\\Users\\Hngk\\Documents\\Codex\\PUMA_STAGE2\\Exploration_8_Diversity_Aware_Wider_Field_and_Boundary_Optimization\\INPUTS\\QUICK_BENCHMARK\\OUTPUTS",
+  "runtime_local": "C:\\Users\\Hngk\\Documents\\Codex\\PUMA_STAGE2\\Exploration_8_Diversity_Aware_Wider_Field_and_Boundary_Optimization\\INPUTS\\QUICK_BENCHMARK\\RUNTIME",
+  "stage1_proposals": "",
+  "uni2_weights": "D:\\Research\\PUMA\\Code\\PUMA_pretrained_checkpoints\\UNI2-h\\uni2_h_model.bin"
+}

@@ -1,0 +1,14 @@
+{
+  "candidates": [
+    "A_simple_residual",
+    "C_rank8_local_x_wider"
+  ],
+  "frozen_fold_artifact_required": true,
+  "global_scale": {
+    "bounded": true,
+    "class_shared": true,
+    "initial_fraction": 0.25
+  },
+  "simplicity_rule": "A_WINS_IF_C_NOT_DISTINGUISHABLE",
+  "third_candidate_forbidden": true
+}

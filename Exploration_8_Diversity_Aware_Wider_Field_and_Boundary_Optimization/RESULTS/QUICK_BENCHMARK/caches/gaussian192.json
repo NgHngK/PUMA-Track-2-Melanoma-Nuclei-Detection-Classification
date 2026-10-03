@@ -1,0 +1,22 @@
+{
+  "code_contract": "exploration8-v2",
+  "coordinate_rule": "u=(x-left)/(fov/16); no half-token shift",
+  "data_file_mtime_ns": 1789631004000000000,
+  "data_file_sha256": "77986e707938e537554751443a88d13d1e06345f91dcde4bf813a92e27e85455",
+  "data_file_size": 30050432,
+  "dtype": "float32",
+  "encoder_sha256": "32cc070acd809d087debdbe483f388561cf03de825cc7c2935d1732dfb427ffe",
+  "feature_dim": 1536,
+  "fov": 192,
+  "manifest_sha256": "e0ed7b1c11d70c7e64d6065a11328c346d2679e3702f4116c591fdaa08dd55ec",
+  "pool": "coordinate_aware_gaussian_sigma1.5",
+  "precision": "fp32",
+  "shape": [
+    4891,
+    1536
+  ],
+  "uid_file_mtime_ns": 1789631004000000000,
+  "uid_file_sha256": "79ffca4ba915e3a8a89a8bc5b08e9f00090fbd413006e0f990bba3bf6d9eb511",
+  "uid_file_size": 684868,
+  "uid_sha256": "17719f5873bfbd5ab6d48a3d9d4d69f5da41c5b5f78507f9b9578ec8dafad31d"
+}

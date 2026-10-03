@@ -1,0 +1,16 @@
+{
+  "architecture_uses": [
+    "TRAIN"
+  ],
+  "calibration_uses": [
+    "CAL"
+  ],
+  "roles": [
+    "TRAIN",
+    "CAL",
+    "VALIDATE",
+    "TEST"
+  ],
+  "test_open_after_promote": true,
+  "validate_open_once": true
+}

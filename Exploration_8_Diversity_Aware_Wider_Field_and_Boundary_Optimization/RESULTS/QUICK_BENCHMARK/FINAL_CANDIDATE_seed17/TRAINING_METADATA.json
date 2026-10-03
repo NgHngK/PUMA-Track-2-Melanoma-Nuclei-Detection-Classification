@@ -1,0 +1,40 @@
+{
+  "visual_freeze_sha256": "e2d5362ce56b06a17c4eedf2d405fb66b207e66198aa89beeb40961f2d1bf10c",
+  "checkpoint_sha256": "88ff7de99c6ddfb7273b85f0cf7afd97ad991ce2d983fb437630fc11ff1cebaf",
+  "seed": 17,
+  "effective_source_prior": [
+    0.10376360808709176,
+    0.10090202177293935,
+    0.09928460342146189,
+    0.09925349922239503,
+    0.10003110419906687,
+    0.0971384136858476,
+    0.10040435458786937,
+    0.10027993779160187,
+    0.09856920684292379,
+    0.10037325038880249
+  ],
+  "sampled_class_counts": [
+    3336,
+    3244,
+    3192,
+    3191,
+    3216,
+    3123,
+    3228,
+    3224,
+    3169,
+    3227
+  ],
+  "feature_storage": "gpu_resident",
+  "cuda_memory": {
+    "cuda": true,
+    "free_bytes": 23135780864,
+    "total_bytes": 23659151360,
+    "allocated_bytes": 58335232,
+    "reserved_bytes": 69206016,
+    "peak_allocated_bytes": 60339200,
+    "peak_reserved_bytes": 69206016
+  },
+  "normalizer_fold_id": "FULL_TRAIN_seed17"
+}

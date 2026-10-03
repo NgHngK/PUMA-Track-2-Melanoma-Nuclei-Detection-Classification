@@ -1,0 +1,64 @@
+{
+  "cal_fold_sha256": "e8bf26acdc74a475f903f3255d7692ad7f52b4a8b5aa475f6e9ec71306d218bb",
+  "classes": [
+    "tumor",
+    "lymphocyte",
+    "plasma_cell",
+    "histiocyte",
+    "melanophage",
+    "neutrophil",
+    "stroma",
+    "epithelium",
+    "endothelium",
+    "apoptosis"
+  ],
+  "kind": "BOUNDARY_FREEZE",
+  "manifest_sha256": "e0ed7b1c11d70c7e64d6065a11328c346d2679e3702f4116c591fdaa08dd55ec",
+  "payload_sha256": "b398b426f2ed0cc8b88478ff90e6fedf2bcc61369a60aeed953994644e0075d1",
+  "protocol_sha256": "0171159364c79825f28f4fe86401c1ded44f148db5c58f1d76bda2361f3a434c",
+  "recipe": {
+    "delta_zero_sum": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "lambda": 0.0,
+    "offset": [
+      0.7957980347967959,
+      0.5593222746277993,
+      -0.5673366498792021,
+      0.08282705721887496,
+      -0.6820728519619568,
+      -1.6785815133318605,
+      0.05344103670727263,
+      -0.5439753746684293,
+      -0.19499123841582655,
+      0.14001121832955699
+    ],
+    "shrinkage": null,
+    "target_prior": [
+      0.2299618320610687,
+      0.1765267175572519,
+      0.05629770992366412,
+      0.10782442748091603,
+      0.05057251908396947,
+      0.01812977099236641,
+      0.10591603053435114,
+      0.05820610687022901,
+      0.08110687022900763,
+      0.11545801526717557
+    ],
+    "temperature": 1.0
+  },
+  "seed": 17,
+  "selected_boundary": "H0_NO_BOUNDARY_CHANGE",
+  "training_metadata_sha256": "c51673b5a6cf4a1f9160fc8d9dbd108bad373a0577882670510376255e78c525",
+  "visual_freeze_sha256": "e2d5362ce56b06a17c4eedf2d405fb66b207e66198aa89beeb40961f2d1bf10c"
+}

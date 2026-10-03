@@ -1,0 +1,17 @@
+{
+  "locked": true,
+  "min_positive_groups_per_class": 3,
+  "nested_h1_h2_crossfit": true,
+  "per_class_thresholds": false,
+  "shrinkage_family": [
+    100.0
+  ],
+  "strong_l2": true,
+  "unlock": [
+    "H1 aggregate benefit",
+    "localized class-specific recall harm",
+    "CAL support estimable",
+    "no leakage/representation failure"
+  ],
+  "zero_sum": true
+}

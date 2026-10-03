@@ -1,0 +1,21 @@
+{
+  "design_version": 2,
+  "minimum_contrast_nuclei": 20,
+  "density_equal_optimization_draws": true,
+  "frozen_fold_artifact_required": true,
+  "group_aware_exposure_candidate": true,
+  "guarantee_every_selected_group_represented": true,
+  "high_groups_per_class": 8,
+  "low_density_nuclei_per_class": 20,
+  "low_groups_per_class": 2,
+  "matched_nucleus_count": true,
+  "nuclei_per_class": 40,
+  "roster_draws": 5,
+  "roster_seeds": [
+    17,
+    29,
+    43,
+    59,
+    71
+  ]
+}

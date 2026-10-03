@@ -1,0 +1,14 @@
+{
+  "controls_after_W": [
+    "train-row-shuffled Tier-A",
+    "fixed label-free appearance-derived 16D matched-capacity placebo"
+  ],
+  "corners": [
+    "L",
+    "L+A",
+    "L+W",
+    "L+A+W"
+  ],
+  "frozen_fold_artifact_required": true,
+  "same_folds_budget": true
+}

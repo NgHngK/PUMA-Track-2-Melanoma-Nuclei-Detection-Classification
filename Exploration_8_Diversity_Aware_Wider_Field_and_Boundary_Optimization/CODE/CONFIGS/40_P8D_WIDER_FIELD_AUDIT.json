@@ -1,0 +1,18 @@
+{
+  "annular_exclusion": "central FOV96 footprint around continuous (u,v), half-width 4 token-index units",
+  "controls": [
+    "shuffle",
+    "local_same_capacity",
+    "within_roi_swap_when_safe"
+  ],
+  "coordinate_rule": "same continuous target-coordinate convention as local; FOV192 uses 12 source px/token",
+  "fov": 192,
+  "frozen_fold_artifact_required": true,
+  "neutral_term": "wider_field",
+  "probe": "TRAIN-fold-standardized multinomial logistic regression; C=1.0, lbfgs, max_iter=600",
+  "representations": [
+    "gaussian192",
+    "annular192"
+  ],
+  "scale_only": "FOV96 resized to central 112x112 of white 224 canvas"
+}

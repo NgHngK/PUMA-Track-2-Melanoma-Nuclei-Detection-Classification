@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "puma-exploration8"
+version = "1.0.0"
+description = "PUMA Exploration-8 frozen-UNI2 Stage-2 research pipeline"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26","pandas>=2.0","Pillow>=10","scikit-learn>=1.4","scipy>=1.11","timm==1.0.20"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

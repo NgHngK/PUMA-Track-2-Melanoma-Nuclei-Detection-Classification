@@ -1,0 +1,8 @@
+{
+  "amendment": "P8D fixed diagnostic probe parity and split-isolated controls",
+  "reason": "Exploration-8 raw-artifact audit verified Exploration-7 Exp5 used standardized multinomial logistic regression C=1, lbfgs, max_iter=600 and identified the historical global pre-fold shuffle as a control weakness. Exploration-8 fixes both before any real Exploration-8 representation outcome was viewed.",
+  "previous_config_sha256": "fb557aa3878576804d4465bc24b88c1991f7226d06913a120c04058f8df4d90c",
+  "new_config_sha256": "2b312b270cb98ea751e60561272ef977256d973deb8f3ba6a4dd1477ebecbe33",
+  "real_exploration8_outcomes_seen": false,
+  "confirmatory_status": "preserved; amendment is pre-outcome"
+}

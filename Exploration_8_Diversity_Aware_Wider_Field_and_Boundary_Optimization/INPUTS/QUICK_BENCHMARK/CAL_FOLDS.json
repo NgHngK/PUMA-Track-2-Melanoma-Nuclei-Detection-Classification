@@ -1,0 +1,2084 @@
+{
+  "assignments": [
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:6"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:8"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:33"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:35"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:41"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:45"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:57"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:63"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:65"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:74"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:96"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:101"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:116"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:117"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:125"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:138"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:139"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:142"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:146"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:172"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:177"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:183"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:192"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:193"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:202"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:207"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:210"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:214"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:240"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:257"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:262"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:266"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:286"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:289"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:300"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:305"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:314"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:315"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:321"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:340"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:350"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:356"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:375"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:377"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:383"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:389"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:396"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:406"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:417"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:424"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:426"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:429"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:430"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:432"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:438"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:441"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:444"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:449"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:471"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:482"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:488"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:493"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:495"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:499"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:501"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:512"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:523"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:525"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:531"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:534"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:541"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:544"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:548"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:550"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:555"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:559"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:568"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:575"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:580"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:581"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:584"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:585"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:588"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:589"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:590"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:591"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:594"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:604"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:607"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:612"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:623"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:627"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:628"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:633"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:643"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:649"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:665"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:684"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:687"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:691"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:719"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:726"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:727"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:728"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:729"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:730"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:731"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:732"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:733"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:736"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:741"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:744"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:745"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:752"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:753"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:758"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:759"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:767"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:768"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:769"
+    },
+    {
+      "fold": 2,
+      "uid": "training_set_metastatic_roi_030:770"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:0"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:1"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:2"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:3"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:7"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:9"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:10"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:11"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:14"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:15"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:17"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:18"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:19"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:20"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:22"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:24"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:27"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:28"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:33"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:34"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:36"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:37"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:39"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:42"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:43"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:44"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:45"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:46"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:47"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:48"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:49"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:50"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:51"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:52"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:53"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:54"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:55"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:57"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:58"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:59"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:60"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:61"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:62"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:63"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:64"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:65"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:66"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:68"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:70"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:72"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:74"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:75"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:76"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:77"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:79"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:83"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:86"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:89"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:92"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:94"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:96"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:98"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:102"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:104"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:105"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:106"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:108"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:109"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:112"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:113"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:117"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:121"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:127"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:134"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:136"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:145"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:146"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:149"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:152"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:158"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:159"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:160"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:161"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:164"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:165"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:166"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:168"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:169"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:170"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:171"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:173"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:174"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:178"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:179"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:181"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:187"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:188"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:192"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:198"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:202"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:206"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:207"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:208"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:211"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:212"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:215"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:217"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:221"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:225"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:226"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:228"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:229"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:231"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:232"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:243"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:247"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:255"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:266"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:267"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:272"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:277"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:279"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:280"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:283"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:290"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:292"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:294"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:298"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:301"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:303"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:304"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:306"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:307"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:308"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:310"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:312"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:313"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:315"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:316"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:317"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:319"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:320"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:321"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:323"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:325"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:330"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:331"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:334"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:335"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:336"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:337"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:341"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:343"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:345"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:346"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:350"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:351"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:352"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:353"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:355"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:356"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:359"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:362"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:363"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:364"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:366"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:367"
+    },
+    {
+      "fold": 0,
+      "uid": "training_set_primary_roi_010:368"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:6"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:9"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:10"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:17"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:26"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:33"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:35"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:39"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:40"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:41"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:45"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:46"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:47"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:65"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:66"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:70"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:88"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:96"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:97"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:98"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:101"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:102"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:107"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:115"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:118"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:123"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:124"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:125"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:126"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:129"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:131"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:143"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:146"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:149"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:155"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:158"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:162"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:163"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:166"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:170"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:174"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:180"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:182"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:183"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:186"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:189"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:191"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:192"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:193"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:194"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:195"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:196"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:198"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:199"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:201"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:202"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:203"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:204"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:205"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:206"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:209"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:210"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:214"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:218"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:222"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:223"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:224"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:228"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:229"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:230"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:231"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:232"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:233"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:234"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:235"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:236"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:238"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:240"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:241"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:242"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:244"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:245"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:246"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:248"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:249"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:253"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:257"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:258"
+    },
+    {
+      "fold": 3,
+      "uid": "training_set_primary_roi_082:259"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:0"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:3"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:8"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:20"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:28"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:45"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:48"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:53"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:86"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:98"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:99"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:104"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:111"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:115"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:143"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:152"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:157"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:164"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:171"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:182"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:188"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:199"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:211"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:212"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:216"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:220"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:224"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:226"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:248"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:251"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:252"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:261"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:266"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:270"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:276"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:277"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:283"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:285"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:286"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:288"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:291"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:292"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:293"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:308"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:325"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:326"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:333"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:339"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:345"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:347"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:349"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:354"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:358"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:365"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:367"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:368"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:370"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:375"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:379"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:384"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:390"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:395"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:405"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:407"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:415"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:419"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:423"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:434"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:442"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:465"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:471"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:476"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:478"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:487"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:490"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:492"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:516"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:535"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:539"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:543"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:561"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:562"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:572"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:573"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:577"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:580"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:582"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:585"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:593"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:598"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:608"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:609"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:610"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:612"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:613"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:614"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:619"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:620"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:621"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:623"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:627"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:632"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:635"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:640"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:643"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:644"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:646"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:647"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:651"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:657"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:658"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:659"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:663"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:685"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:689"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:690"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:692"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:695"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:701"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:714"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:715"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:719"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:725"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:726"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:737"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:740"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:749"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:753"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:754"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:761"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:765"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:766"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:771"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:772"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:778"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:780"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:782"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:783"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:784"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:785"
+    },
+    {
+      "fold": 1,
+      "uid": "training_set_primary_roi_083:786"
+    }
+  ],
+  "group_column": "roi",
+  "k": 4,
+  "role": "CAL",
+  "sha256": "e8bf26acdc74a475f903f3255d7692ad7f52b4a8b5aa475f6e9ec71306d218bb"
+}

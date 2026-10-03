@@ -1,0 +1,8 @@
+{
+  "amendment": "P6 coordinate-aware pooling parity, frozen-fold consumption, and conditional Tier-A controls",
+  "reason": "Pre-outcome code-consistency audit found that the implementation used a fixed 7.5/7.5 token center instead of the verified historical continuous target coordinate, and some stage runners deterministically rebuilt rather than consumed the frozen P8-B folds. P8-F also lacked the preregistered historical Tier-A shuffle/capacity controls. These are correctness/spec-parity fixes made before any real Exploration-8 model outcome was viewed.",
+  "previous_protocol_sha256": "73877f66a69f81f50f07690fb965a9d92a216728dfee4ddb1b8b1b0f4179bbd6",
+  "new_protocol_sha256": "acacf6372abf3f5cb7c6870e66f94bc3f389097400abb7e77211dd3dd94f9209",
+  "real_exploration8_outcomes_seen": false,
+  "confirmatory_status": "preserved; pre-outcome correctness amendment"
+}

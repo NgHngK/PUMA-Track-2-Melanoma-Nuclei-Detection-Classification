@@ -1,0 +1,32 @@
+{
+  "aggregation": [
+    "ROI fixed-10",
+    "pooled fixed-10",
+    "public dynamic when applicable"
+  ],
+  "decision": "NO VERIFIED COMPARABLE NUMERICAL SOTA TARGET",
+  "evaluator_contract": "historical local V17 semantics reconstructed from master report; authoritative source hash unavailable in current runtime",
+  "external_comparator_is_1to1_comparable": false,
+  "external_training_data": "not introduced by Exploration 8",
+  "gt_centred_comparable_to_full_challenge": false,
+  "historical_p6_locked_natural_roi_f1": 0.157786,
+  "matching": "same class, strict distance <15 px, GT order, prediction score-desc/distance/stable-order, historical duplicate-centroid deletion",
+  "ontology": [
+    "tumor",
+    "lymphocyte",
+    "plasma_cell",
+    "histiocyte",
+    "melanophage",
+    "neutrophil",
+    "stroma",
+    "epithelium",
+    "endothelium",
+    "apoptosis"
+  ],
+  "pathology_foundation_pretraining": "UNI2-h allowed and frozen",
+  "puma_track": "Track 2 uses ten nuclei classes plus tissue segmentation",
+  "reason": "full challenge includes detection/segmentation and tissue task; Exploration-8 conditional classifier is not numerically 1:1 comparable",
+  "stage1_policy": "frozen; not modified",
+  "task_scope": "Exploration-8 is Stage-2 conditional 10-class classification at fixed nucleus coordinates unless certified Stage-1 proposals are supplied",
+  "verified_external_track2_final_challenge_macro_f1_best": 0.2707
+}

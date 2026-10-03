@@ -1,0 +1,132 @@
+{
+  "boundary": {
+    "H1_lambda_grid": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "H2_locked": true,
+    "H2_unlock": [
+      "H1 aggregate benefit",
+      "localized class-specific recall harm",
+      "CAL support estimable",
+      "no leakage/representation failure"
+    ],
+    "H2_zero_sum_bias": true,
+    "temperature_for_calibration_only": true
+  },
+  "diversity": {
+    "density_equal_optimization_draws": true,
+    "group_aware_exposure_candidate": true,
+    "high_groups_per_class": 8,
+    "low_groups_per_class": 2,
+    "matched_nucleus_count": true,
+    "roster_draws": 5
+  },
+  "encoder": {
+    "frozen": true,
+    "name": "UNI2-h",
+    "no_lora": true
+  },
+  "fallback_statement": "PATIENT-LEVEL INDEPENDENCE UNVERIFIED",
+  "finalization": {
+    "checkpoint_per_seed": true,
+    "full_train_refit": "fixed selected epoch budget after P8-G",
+    "prediction_npz_must_bind_freeze_hash": true,
+    "protected_evaluation_uid_aligned": true
+  },
+  "fold_contract": "P8-B frozen TRAIN/CAL fold artifacts are hashed once and consumed by every downstream stage; runners must not regenerate folds",
+  "group_hierarchy": [
+    "patient_id",
+    "case_id",
+    "slide_id",
+    "roi"
+  ],
+  "joint_refit": [
+    "J0_local",
+    "J1_local_plus_selected_wider"
+  ],
+  "local": {
+    "a5_rank": 8,
+    "coordinate_rule": "u=(x-floor(x-fov/2+0.5))/(fov/16), same for v; no half-token shift",
+    "dim": 1536,
+    "fov": 96,
+    "fresh_exploration8_initialization": true,
+    "pool": "coordinate_aware_gaussian",
+    "sigma": 1.5,
+    "tierA_dim": 16
+  },
+  "no_architecture_zoo": true,
+  "no_ensemble": true,
+  "no_per_class_thresholds": true,
+  "optimizer": {
+    "batch": 64,
+    "epochs": 10,
+    "grad_clip": 1.0,
+    "loss": "cross_entropy",
+    "lr": 0.001,
+    "name": "AdamW",
+    "sampler": "inverse_class_count_replacement",
+    "weight_decay": 0.01
+  },
+  "protected": {
+    "test_default": false,
+    "test_once": true,
+    "validate_default": false,
+    "validate_once": true
+  },
+  "protocol_version": "P8-2026-09-15-v2",
+  "roles": [
+    "TRAIN",
+    "CAL",
+    "VALIDATE",
+    "TEST"
+  ],
+  "routing": {
+    "candidates": [
+      "A_simple_residual",
+      "C_rank8_local_x_wider"
+    ],
+    "global_scale": {
+      "bounded": true,
+      "class_shared": true,
+      "initial_fraction": 0.25
+    },
+    "simplicity_rule": "A_WINS_IF_C_NOT_DISTINGUISHABLE",
+    "third_candidate_forbidden": true
+  },
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "stage1": "FROZEN",
+  "tiera_controls_after_wider": [
+    "train-row-shuffled Tier-A",
+    "fixed label-free appearance-derived 16D matched-capacity placebo"
+  ],
+  "tiera_factorial": [
+    "L",
+    "L+A",
+    "L+W",
+    "L+A+W"
+  ],
+  "wider_field": {
+    "annular_exclusion": "central FOV96 footprint around continuous (u,v), half-width 4 token-index units",
+    "controls": [
+      "shuffle",
+      "local_same_capacity",
+      "within_roi_swap_when_safe"
+    ],
+    "coordinate_rule": "same continuous target-coordinate convention as local; FOV192 uses 12 source px/token",
+    "fov": 192,
+    "neutral_term": "wider_field",
+    "representations": [
+      "gaussian192",
+      "annular192"
+    ],
+    "scale_only": "FOV96 resized to central 112x112 of white 224 canvas"
+  }
+}

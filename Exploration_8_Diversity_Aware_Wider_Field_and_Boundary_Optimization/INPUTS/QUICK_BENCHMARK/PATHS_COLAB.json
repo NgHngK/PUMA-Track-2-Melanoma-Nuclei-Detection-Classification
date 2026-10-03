@@ -1,0 +1,7 @@
+{
+  "manifest": "/content/drive/MyDrive/Research/PUMA/Exploration_8_Diversity_Aware_Wider_Field_and_Boundary_Optimization/INPUTS/QUICK_BENCHMARK/EXPLORATION8_QUICK_MANIFEST.csv",
+  "output_root": "/content/drive/MyDrive/Research/PUMA/Exploration_8_Diversity_Aware_Wider_Field_and_Boundary_Optimization/RESULTS/QUICK_BENCHMARK",
+  "runtime_local": "/content/PUMA_P8_RUNTIME",
+  "stage1_proposals": "",
+  "uni2_weights": "/content/drive/MyDrive/Research/PUMA/PUMA_pretrained_checkpoints/UNI2-h/uni2_h_model.bin"
+}

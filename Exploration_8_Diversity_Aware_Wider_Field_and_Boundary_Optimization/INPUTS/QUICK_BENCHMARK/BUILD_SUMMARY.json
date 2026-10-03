@@ -1,0 +1,17 @@
+{
+  "purpose": "rapid exploratory benchmark; not a confirmatory full-dataset result",
+  "seed": 17,
+  "max_per_class_per_roi": 30,
+  "source_roi_count": 205,
+  "selected_roi_count": 36,
+  "sampled_nuclei": 4891,
+  "role_counts": {
+    "TRAIN": 24,
+    "CAL": 4,
+    "VALIDATE": 4,
+    "TEST": 4
+  },
+  "patient_level_verified": false,
+  "group_column": "roi",
+  "portable_copy": true
+}

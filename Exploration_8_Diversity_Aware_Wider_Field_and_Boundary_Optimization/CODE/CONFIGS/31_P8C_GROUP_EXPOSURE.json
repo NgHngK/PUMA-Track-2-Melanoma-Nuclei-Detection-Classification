@@ -1,0 +1,6 @@
+{
+  "candidate": "class->group_within_class->nucleus",
+  "comparison": "historical inverse-count exposure",
+  "frozen_fold_artifact_required": true,
+  "same_draws": true
+}

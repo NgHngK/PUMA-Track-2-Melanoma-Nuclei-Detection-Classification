@@ -1,0 +1,18 @@
+{
+  "exposure": {
+    "source": "P8C",
+    "value": "inverse"
+  },
+  "selected_route": {
+    "source": "P8E",
+    "value": "C"
+  },
+  "selected_wider": {
+    "source": "P8D",
+    "value": "gaussian192"
+  },
+  "tiera": {
+    "source": "P8F",
+    "value": false
+  }
+}

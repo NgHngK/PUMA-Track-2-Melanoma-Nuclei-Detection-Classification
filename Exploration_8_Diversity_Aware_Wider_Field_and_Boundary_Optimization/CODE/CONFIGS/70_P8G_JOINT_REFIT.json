@@ -1,0 +1,8 @@
+{
+  "comparators": [
+    "J0_local",
+    "J1_local_plus_selected_wider"
+  ],
+  "frozen_fold_artifact_required": true,
+  "same_folds_optimizer_seed_budget": true
+}

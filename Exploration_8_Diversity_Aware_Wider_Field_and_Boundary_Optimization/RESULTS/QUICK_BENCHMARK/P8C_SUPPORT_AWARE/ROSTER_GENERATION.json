@@ -1,0 +1,813 @@
+{
+  "design_sha256": "b213ae713ac87ee48fa998bb63209dcc29a1770d96d3dffea5da23280f1e0b6b",
+  "frozen_fold_sha256": "8cb024eb001ec7b7d3ccdbe4d9faa8c6fe75f32753c6869d89e08e1ca0cd1b75",
+  "draw_seeds": [
+    17,
+    29,
+    43,
+    59,
+    71
+  ],
+  "records": [
+    {
+      "draw_seed": 17,
+      "fold": 0,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "74120e9a19f2a85a1a9f2ef82e9248fe270950299266c79517f12192722d4027",
+      "roster_file": "ROSTERS/div_low_draw17_fold0_74120e9a19.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 0,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "fc7301bbd592aa309ae7bf54cb0588cd5665c151bbbd1fba05bf617363620f51",
+      "roster_file": "ROSTERS/div_high_draw17_fold0_fc7301bbd5.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 0,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "a848b2235726e7c40830b57ab9084cd2d121468e3e4d9e12580cf0f34afb3567",
+      "roster_file": "ROSTERS/density_low_draw17_fold0_a848b22357.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 0,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "fc7301bbd592aa309ae7bf54cb0588cd5665c151bbbd1fba05bf617363620f51",
+      "roster_file": "ROSTERS/density_high_draw17_fold0_fc7301bbd5.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 1,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "032b8eda7ab547592d7d119814efa3aa741417f42ea22d201d225bf5cf40a516",
+      "roster_file": "ROSTERS/div_low_draw17_fold1_032b8eda7a.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 1,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "46b039b3d079c25785e6838b2bf5c3b8f5caf4bec7b02d1d96ab5c1954ff41f6",
+      "roster_file": "ROSTERS/div_high_draw17_fold1_46b039b3d0.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 1,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "963cbe72fbbc8f6e031b5d8e72532e8d6c9516a7708f256a1220d4a7c4724692",
+      "roster_file": "ROSTERS/density_low_draw17_fold1_963cbe72fb.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 1,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "46b039b3d079c25785e6838b2bf5c3b8f5caf4bec7b02d1d96ab5c1954ff41f6",
+      "roster_file": "ROSTERS/density_high_draw17_fold1_46b039b3d0.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 2,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "86713738ba0fc8b43aab2ce481d684567d246685d0a01154789b11406a059f1a",
+      "roster_file": "ROSTERS/div_low_draw17_fold2_86713738ba.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 2,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "24d960db7af89f027c4fab8b1f2583d8198b8066332353487e3d9ce3ec2341af",
+      "roster_file": "ROSTERS/div_high_draw17_fold2_24d960db7a.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 2,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "1201fda8d30ee999f10ca1369534b391b02d12649eb75b68a30cadcc26aba253",
+      "roster_file": "ROSTERS/density_low_draw17_fold2_1201fda8d3.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 2,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "24d960db7af89f027c4fab8b1f2583d8198b8066332353487e3d9ce3ec2341af",
+      "roster_file": "ROSTERS/density_high_draw17_fold2_24d960db7a.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 3,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "3263946dac7472c70c55bd963e99a9eb1f237b2777ca06ced33efb27a8d5841e",
+      "roster_file": "ROSTERS/div_low_draw17_fold3_3263946dac.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 3,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "5d7b06da6f08fd84701f738cf85e66ee0c0876460d181e40e4e376617ad7193e",
+      "roster_file": "ROSTERS/div_high_draw17_fold3_5d7b06da6f.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 3,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "a27fc3c64dec8a9b96c4345d7efb7d1c01caa79ece0e27fb9c00853114446c3b",
+      "roster_file": "ROSTERS/density_low_draw17_fold3_a27fc3c64d.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 3,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "5d7b06da6f08fd84701f738cf85e66ee0c0876460d181e40e4e376617ad7193e",
+      "roster_file": "ROSTERS/density_high_draw17_fold3_5d7b06da6f.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 4,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "05ed211d5840f2e0dfbf6b1704dae3aaae22425cbd683a96dcf8c5e5d5c43281",
+      "roster_file": "ROSTERS/div_low_draw17_fold4_05ed211d58.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 4,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "59e9f33184fb90a948de5c6a293a07d4a0b0551d2535a58d8365cd0d32d5c3b6",
+      "roster_file": "ROSTERS/div_high_draw17_fold4_59e9f33184.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 4,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "f02350b2acaa897264d1ba18254869ed2d6915b0cbeae6eed9a2dc032f3dfe79",
+      "roster_file": "ROSTERS/density_low_draw17_fold4_f02350b2ac.csv"
+    },
+    {
+      "draw_seed": 17,
+      "fold": 4,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "59e9f33184fb90a948de5c6a293a07d4a0b0551d2535a58d8365cd0d32d5c3b6",
+      "roster_file": "ROSTERS/density_high_draw17_fold4_59e9f33184.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 0,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "bfa9f8f921b494efbf5d6cc2610672b1dbbdc52401853a590afba5991d8b667a",
+      "roster_file": "ROSTERS/div_low_draw29_fold0_bfa9f8f921.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 0,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "a6fe457a88b5308d6d4bdc4f33c8dd75b48281e7ce5c6f72d794ee3e87ef76c3",
+      "roster_file": "ROSTERS/div_high_draw29_fold0_a6fe457a88.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 0,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "72cdcfc21341962fce87b18ef342b30d2cc939ecec1bcfa71da635295e4c465e",
+      "roster_file": "ROSTERS/density_low_draw29_fold0_72cdcfc213.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 0,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "a6fe457a88b5308d6d4bdc4f33c8dd75b48281e7ce5c6f72d794ee3e87ef76c3",
+      "roster_file": "ROSTERS/density_high_draw29_fold0_a6fe457a88.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 1,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "4924f6367838fe2a3a334e70fed0d9e8054098d631a6e22325eab49079fa5e93",
+      "roster_file": "ROSTERS/div_low_draw29_fold1_4924f63678.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 1,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "2a69eb5b66eae22b5220c5f2b275a5ef62d08819551c9e9d8906d7d273fcd7a4",
+      "roster_file": "ROSTERS/div_high_draw29_fold1_2a69eb5b66.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 1,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "e4b5894be160716ffcd665e919a2003843f7186886a4f94625b96d86e405ea10",
+      "roster_file": "ROSTERS/density_low_draw29_fold1_e4b5894be1.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 1,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "2a69eb5b66eae22b5220c5f2b275a5ef62d08819551c9e9d8906d7d273fcd7a4",
+      "roster_file": "ROSTERS/density_high_draw29_fold1_2a69eb5b66.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 2,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "58496bafea1131f94bcfa9081a9b7d08f74100baa63dc59c73187e7f77c8aa2b",
+      "roster_file": "ROSTERS/div_low_draw29_fold2_58496bafea.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 2,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "56f7748f88f451847981ddfc7942aeea77c51e0b92fee3dc50e7367caf044881",
+      "roster_file": "ROSTERS/div_high_draw29_fold2_56f7748f88.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 2,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "233dba88018469217dd7f38950e0e3ec9d108ee7f05f10819b5044d5be35aa94",
+      "roster_file": "ROSTERS/density_low_draw29_fold2_233dba8801.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 2,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "56f7748f88f451847981ddfc7942aeea77c51e0b92fee3dc50e7367caf044881",
+      "roster_file": "ROSTERS/density_high_draw29_fold2_56f7748f88.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 3,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "692d9375d27deddbb0e3bd7b1386d65f1a44d989f77030057f10cedd1ed263ea",
+      "roster_file": "ROSTERS/div_low_draw29_fold3_692d9375d2.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 3,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "6f18ab17d83bca2a00331208cdcbb61633cf62ed822102c6fab768775b0ea7a6",
+      "roster_file": "ROSTERS/div_high_draw29_fold3_6f18ab17d8.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 3,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "b2808e13f686853a77d602e58c140a82bf888c0507ec3044e1737a4a91b64049",
+      "roster_file": "ROSTERS/density_low_draw29_fold3_b2808e13f6.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 3,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "6f18ab17d83bca2a00331208cdcbb61633cf62ed822102c6fab768775b0ea7a6",
+      "roster_file": "ROSTERS/density_high_draw29_fold3_6f18ab17d8.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 4,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "b4e628a264766d2b90bfb8a28620c63882ff9e16ecdcac92dbc489fe1ec90cbb",
+      "roster_file": "ROSTERS/div_low_draw29_fold4_b4e628a264.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 4,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "e34b533f8f556edc1c1bf3c88c12087df0efa7953335869d9c5885a329b16cbf",
+      "roster_file": "ROSTERS/div_high_draw29_fold4_e34b533f8f.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 4,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "f1da8b1b4f897e0c204bb70a32e0e04a418ec056efb1e339635aa1f3d7912074",
+      "roster_file": "ROSTERS/density_low_draw29_fold4_f1da8b1b4f.csv"
+    },
+    {
+      "draw_seed": 29,
+      "fold": 4,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "e34b533f8f556edc1c1bf3c88c12087df0efa7953335869d9c5885a329b16cbf",
+      "roster_file": "ROSTERS/density_high_draw29_fold4_e34b533f8f.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 0,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "04ec0bb07a6203788ab0f1065b4b2f75f67ccd1994fb6d4eb49969a8254f230d",
+      "roster_file": "ROSTERS/div_low_draw43_fold0_04ec0bb07a.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 0,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "dafd91f2a9b8ff5a978bc0fb7168b2a20832a77faca5fae0ccf0547b3412a20d",
+      "roster_file": "ROSTERS/div_high_draw43_fold0_dafd91f2a9.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 0,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "0a0b271c7de01932c678350bf78659132426525bf0d8ccbe9bed2170aa21ba63",
+      "roster_file": "ROSTERS/density_low_draw43_fold0_0a0b271c7d.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 0,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "dafd91f2a9b8ff5a978bc0fb7168b2a20832a77faca5fae0ccf0547b3412a20d",
+      "roster_file": "ROSTERS/density_high_draw43_fold0_dafd91f2a9.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 1,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "6c5c0b1e635b1ac211b66551e5487d6bea6bb3765347bf1fb79498cf7aebbb57",
+      "roster_file": "ROSTERS/div_low_draw43_fold1_6c5c0b1e63.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 1,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "b924b3da8d6f87962781622fbc8b6e603ab7501e253d5f5725ec968f76648f6f",
+      "roster_file": "ROSTERS/div_high_draw43_fold1_b924b3da8d.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 1,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "017fce12590c9d56c85d840943d72ac47722bc443d4b677d875feaa9129b091e",
+      "roster_file": "ROSTERS/density_low_draw43_fold1_017fce1259.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 1,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "b924b3da8d6f87962781622fbc8b6e603ab7501e253d5f5725ec968f76648f6f",
+      "roster_file": "ROSTERS/density_high_draw43_fold1_b924b3da8d.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 2,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "9c34573b067f1cd643db1e58bcbe798c312f8504f54820b42f520ac1b354b71f",
+      "roster_file": "ROSTERS/div_low_draw43_fold2_9c34573b06.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 2,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "2ca83cead8f26edf0d671a085cac59a98298f4534146f9c6c8e305a7046e4682",
+      "roster_file": "ROSTERS/div_high_draw43_fold2_2ca83cead8.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 2,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "6e4323522a075b14c389e238bb14cfa16119981debc55d85aae1dbbee3b3b08c",
+      "roster_file": "ROSTERS/density_low_draw43_fold2_6e4323522a.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 2,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "2ca83cead8f26edf0d671a085cac59a98298f4534146f9c6c8e305a7046e4682",
+      "roster_file": "ROSTERS/density_high_draw43_fold2_2ca83cead8.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 3,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "1fcbf9a6b0e4d02da3208397c3899112dcfad9c74608602158eec7e904230549",
+      "roster_file": "ROSTERS/div_low_draw43_fold3_1fcbf9a6b0.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 3,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "b89627039dbfa5fc3a6036f9da44ee9d03fb43bec5d23d1b09eb662db5af0229",
+      "roster_file": "ROSTERS/div_high_draw43_fold3_b89627039d.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 3,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "a7dad043a232c2710c1e43dbe2f980cf71b61abd056854789811b03806b94b0d",
+      "roster_file": "ROSTERS/density_low_draw43_fold3_a7dad043a2.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 3,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "b89627039dbfa5fc3a6036f9da44ee9d03fb43bec5d23d1b09eb662db5af0229",
+      "roster_file": "ROSTERS/density_high_draw43_fold3_b89627039d.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 4,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "739bc87ddb8e4b696d41c37de42e912fabae57bf199f9f7fe2367feb19bf9d0a",
+      "roster_file": "ROSTERS/div_low_draw43_fold4_739bc87ddb.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 4,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "488b28b1c55eaae9059a9c885223027979b97647da54bfd226cbbf5503fe6179",
+      "roster_file": "ROSTERS/div_high_draw43_fold4_488b28b1c5.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 4,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "93bc9218d18af678ebfac0e82c47e28eebac12de367345bf7fdeb0af5cf312e8",
+      "roster_file": "ROSTERS/density_low_draw43_fold4_93bc9218d1.csv"
+    },
+    {
+      "draw_seed": 43,
+      "fold": 4,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "488b28b1c55eaae9059a9c885223027979b97647da54bfd226cbbf5503fe6179",
+      "roster_file": "ROSTERS/density_high_draw43_fold4_488b28b1c5.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 0,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "4b591d03eeff2aae1a685aaea6894ee86d7acb4f99d40f2eb0e7ea5000377c85",
+      "roster_file": "ROSTERS/div_low_draw59_fold0_4b591d03ee.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 0,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "a539da143327786b1529ee4bb2fec8caef072fc4e187538ece76e2923fcee04d",
+      "roster_file": "ROSTERS/div_high_draw59_fold0_a539da1433.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 0,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "0ec054925e3ca801835a2aedad3bc022c93f1d6f0fc4ad42ba0f5b4627cf75e5",
+      "roster_file": "ROSTERS/density_low_draw59_fold0_0ec054925e.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 0,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "a539da143327786b1529ee4bb2fec8caef072fc4e187538ece76e2923fcee04d",
+      "roster_file": "ROSTERS/density_high_draw59_fold0_a539da1433.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 1,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "90da2b9a4eabb6692617006f0ec2bef4b8275ae979851cf8f65bde2809b22640",
+      "roster_file": "ROSTERS/div_low_draw59_fold1_90da2b9a4e.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 1,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "dd289733cf2ee81835590017a40b8de6c7d2ee5d0047ed04c1a9fde68bc7b35b",
+      "roster_file": "ROSTERS/div_high_draw59_fold1_dd289733cf.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 1,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "9c305bd88b6aa81f6cea9af39a500ef575b0adeb25abb84ad784baadaf5ca229",
+      "roster_file": "ROSTERS/density_low_draw59_fold1_9c305bd88b.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 1,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "dd289733cf2ee81835590017a40b8de6c7d2ee5d0047ed04c1a9fde68bc7b35b",
+      "roster_file": "ROSTERS/density_high_draw59_fold1_dd289733cf.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 2,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "ae71df1b3cbf34668726e57ff7644b2f5a04190036e8dc405093a7506918f598",
+      "roster_file": "ROSTERS/div_low_draw59_fold2_ae71df1b3c.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 2,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "ed52b33322998dab827f726a476b4f0df0fe3421d80aa2629378219ee933da7f",
+      "roster_file": "ROSTERS/div_high_draw59_fold2_ed52b33322.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 2,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "d2a613ed0b47697f80edb896664d5f2cb05da1d3fdeda304bacae1740ea88692",
+      "roster_file": "ROSTERS/density_low_draw59_fold2_d2a613ed0b.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 2,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "ed52b33322998dab827f726a476b4f0df0fe3421d80aa2629378219ee933da7f",
+      "roster_file": "ROSTERS/density_high_draw59_fold2_ed52b33322.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 3,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "dc489eedcdfb0d85f5263c41e528a0bf7fba2f5b473f6008d0607169810f9486",
+      "roster_file": "ROSTERS/div_low_draw59_fold3_dc489eedcd.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 3,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "c0ccf71afcb65358eee7bb81ed6d6760da55f0a16b320243095f20429e8fae22",
+      "roster_file": "ROSTERS/div_high_draw59_fold3_c0ccf71afc.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 3,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "8c9dd3fcfe92140fd7acb315d33243f10a1adb0bffec9b114663c63af285b1d6",
+      "roster_file": "ROSTERS/density_low_draw59_fold3_8c9dd3fcfe.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 3,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "c0ccf71afcb65358eee7bb81ed6d6760da55f0a16b320243095f20429e8fae22",
+      "roster_file": "ROSTERS/density_high_draw59_fold3_c0ccf71afc.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 4,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "ce1631593f72035c443091f3cb442f37bb1d7ed1a4d2e489380ce884643bef71",
+      "roster_file": "ROSTERS/div_low_draw59_fold4_ce1631593f.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 4,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "eabc7471d8eb2454444b32ff86f4efc5256f3bb5f59c6d275f6299cad92161b5",
+      "roster_file": "ROSTERS/div_high_draw59_fold4_eabc7471d8.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 4,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "c3bbe2d4898eeaf6391c4f2431e23731253b1172000db7b93e0e39f07d51e3cb",
+      "roster_file": "ROSTERS/density_low_draw59_fold4_c3bbe2d489.csv"
+    },
+    {
+      "draw_seed": 59,
+      "fold": 4,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "eabc7471d8eb2454444b32ff86f4efc5256f3bb5f59c6d275f6299cad92161b5",
+      "roster_file": "ROSTERS/density_high_draw59_fold4_eabc7471d8.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 0,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "cc267575f3b8998251d7d8acd262fda2512e1281c29775e736c9f87a56891b33",
+      "roster_file": "ROSTERS/div_low_draw71_fold0_cc267575f3.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 0,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "0f8486e7538f499827f0490963254d983ba821863fe359a44c4d8d7588dab81b",
+      "roster_file": "ROSTERS/div_high_draw71_fold0_0f8486e753.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 0,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "d248f3ed5c8ce3d252d16c9e1bfd1a46618949547dc3d5a094bf7fa31dd08a67",
+      "roster_file": "ROSTERS/density_low_draw71_fold0_d248f3ed5c.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 0,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "0f8486e7538f499827f0490963254d983ba821863fe359a44c4d8d7588dab81b",
+      "roster_file": "ROSTERS/density_high_draw71_fold0_0f8486e753.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 1,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "ac0199a3f4fdc0def7e3a87c3d22eab220a826d5397474dd83e02cb2435a8a10",
+      "roster_file": "ROSTERS/div_low_draw71_fold1_ac0199a3f4.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 1,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "11a65b686907c13e83bef06a2b201fdb458c18097df23f9be1b57817e9da0327",
+      "roster_file": "ROSTERS/div_high_draw71_fold1_11a65b6869.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 1,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "fa2d3edb3b93791a55eb6c7d6ffa8fa99f137d321f8ffda1088cd71d7168778a",
+      "roster_file": "ROSTERS/density_low_draw71_fold1_fa2d3edb3b.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 1,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "11a65b686907c13e83bef06a2b201fdb458c18097df23f9be1b57817e9da0327",
+      "roster_file": "ROSTERS/density_high_draw71_fold1_11a65b6869.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 2,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "06858f69ae4cd88054db89a8c5ef5ad6707ee6a1f4a5e59ff5db60576eb93fa8",
+      "roster_file": "ROSTERS/div_low_draw71_fold2_06858f69ae.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 2,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "89fe467a86e54d8743bdfbe81babf6ae48230f59a6ca66457be38bad3222752f",
+      "roster_file": "ROSTERS/div_high_draw71_fold2_89fe467a86.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 2,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "bf02ab3df53606728e7515b8206bd54d63d8f3f7218d3b4ae750037fae617bfe",
+      "roster_file": "ROSTERS/density_low_draw71_fold2_bf02ab3df5.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 2,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "89fe467a86e54d8743bdfbe81babf6ae48230f59a6ca66457be38bad3222752f",
+      "roster_file": "ROSTERS/density_high_draw71_fold2_89fe467a86.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 3,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "a17fda1437daec91604bba70bb1acee3fabec3a486aca0ae5902bcae36447c6d",
+      "roster_file": "ROSTERS/div_low_draw71_fold3_a17fda1437.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 3,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "2a6f521e8194a66b1f22e73dfee6961da516ff8c2d29abf52eef5a1756be7062",
+      "roster_file": "ROSTERS/div_high_draw71_fold3_2a6f521e81.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 3,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "92d30b638539f686fd114c369b10e3e535f1d3e954d2c35fcac4846e20a22fba",
+      "roster_file": "ROSTERS/density_low_draw71_fold3_92d30b6385.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 3,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "2a6f521e8194a66b1f22e73dfee6961da516ff8c2d29abf52eef5a1756be7062",
+      "roster_file": "ROSTERS/density_high_draw71_fold3_2a6f521e81.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 4,
+      "arm": "div_low",
+      "status": "OK",
+      "roster_hash": "205a6dd527b360bbb1f9b58fa24e6769959aee0943782747ce5380bfa77e9ddd",
+      "roster_file": "ROSTERS/div_low_draw71_fold4_205a6dd527.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 4,
+      "arm": "div_high",
+      "status": "OK",
+      "roster_hash": "f1ceeff5d67ffd64fe8c10d2d0292f94a4d0cd7f4da8ffe2ef2ade3bc5f7b2e1",
+      "roster_file": "ROSTERS/div_high_draw71_fold4_f1ceeff5d6.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 4,
+      "arm": "density_low",
+      "status": "OK",
+      "roster_hash": "92357f2f92a619a908c35b21ab24268c5d13a5d3368a71ef625ff44d14091657",
+      "roster_file": "ROSTERS/density_low_draw71_fold4_92357f2f92.csv"
+    },
+    {
+      "draw_seed": 71,
+      "fold": 4,
+      "arm": "density_high",
+      "status": "OK",
+      "roster_hash": "f1ceeff5d67ffd64fe8c10d2d0292f94a4d0cd7f4da8ffe2ef2ade3bc5f7b2e1",
+      "roster_file": "ROSTERS/density_high_draw71_fold4_f1ceeff5d6.csv"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "catastrophic_recall_drop": 0.3,
+  "material_group_delta": 0.01,
+  "min_groups_for_hard_class_safety": 3,
+  "prediction_freeze_binding_required": true,
+  "primary": "PUMA/V17 ROI fixed-10 Macro-F1 when contract valid",
+  "primary_fallback": "semantic fixed-10 only when exact conditional V17 geometry is not estimable",
+  "test_once": true,
+  "uncertainty": "paired group-level",
+  "unsupported_rare_classes": "RARE-CLASS SAFETY NOT ESTABLISHED",
+  "validate_once": true
+}

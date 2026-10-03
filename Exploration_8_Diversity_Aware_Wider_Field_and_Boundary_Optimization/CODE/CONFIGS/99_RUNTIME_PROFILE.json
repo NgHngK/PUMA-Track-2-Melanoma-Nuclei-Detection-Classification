@@ -1,0 +1,10 @@
+{
+  "feature_extraction_batch": "auto/backoff; default 16",
+  "local_staging": "optional",
+  "oom_backoff": "halve batch only on real OOM; release references + gc + empty_cache",
+  "persistent_workers": "benchmark dependent",
+  "pin_memory": true,
+  "precision": "FP32 confirmatory unless parity study unlocks lower precision",
+  "strict_hash_final": true,
+  "vram_policy": "sequential UNI2 forwards; pooled outputs copied to CPU immediately; small-head arrays GPU-resident only with reserved headroom; release CUDA allocator between model runs"
+}

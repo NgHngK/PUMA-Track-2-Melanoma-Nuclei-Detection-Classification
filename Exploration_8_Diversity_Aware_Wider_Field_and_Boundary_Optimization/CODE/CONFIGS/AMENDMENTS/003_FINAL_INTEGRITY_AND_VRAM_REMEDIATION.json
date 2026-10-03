@@ -1,0 +1,21 @@
+{
+  "amendment_id": "003_FINAL_INTEGRITY_AND_VRAM_REMEDIATION",
+  "date": "2026-09-15",
+  "real_exploration8_outcomes_seen": false,
+  "trigger": "Post-build Ponytail whole-repo audit plus correctness/scientific-contract review before any real Exploration-8 execution.",
+  "scientific_status": "CONFIRMATORY_STATUS_PRESERVED_FOR_FUTURE_REAL_RUN",
+  "changes": [
+    "Seed every trainable constructor before initialization; bind model initialization seed to the run.",
+    "Guarantee requested biological groups actually appear in P8-C rosters.",
+    "Make stage JSON configs the runtime scientific source of truth instead of parallel documentation.",
+    "Verify cache file identity and representation/manifest metadata; strict hash mode rehashes payloads.",
+    "Use fully nested CAL H1/H2 cross-fitting and require measured effective source prior.",
+    "Bind visual, boundary, complete-pipeline freezes and prediction NPZ files cryptographically.",
+    "Align protected predictions/groups by UID and use exact conditional PUMA/V17 fixed-10 ROI metric when geometry is estimable.",
+    "Add final full-TRAIN refit, CAL/VALIDATE/TEST prediction, complete freeze and protected end-to-end orchestration.",
+    "Use sequential UNI2 forwards, immediate CPU pooling transfer, deterministic OOM backoff and explicit CUDA release to minimize VRAM.",
+    "Remove dead wrapper/analysis modules and unused PyYAML dependency."
+  ],
+  "current_protocol_sha256": "aaea3a0af45461d1fba81f9e2c958b3ff0bcf217cff117cb336989f2cb9dbcc5",
+  "notes": "Synthetic QA outcomes only were observed while repairing implementation. No real P8-C/D/E/F/G/H, VALIDATE or TEST biological outcome was viewed."
+}

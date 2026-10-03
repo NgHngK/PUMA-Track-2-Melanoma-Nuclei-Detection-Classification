@@ -1,0 +1,5 @@
+{
+  "require_master_report": true,
+  "require_protocol_hash": true,
+  "stop_on_evaluator_contract_failure": true
+}

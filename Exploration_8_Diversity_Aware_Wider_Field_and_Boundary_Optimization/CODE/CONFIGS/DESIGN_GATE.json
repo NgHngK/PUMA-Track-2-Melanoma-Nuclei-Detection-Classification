@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "protocol_version": "P8-2026-09-15-v2",
+  "protocol_sha256": "aaea3a0af45461d1fba81f9e2c958b3ff0bcf217cff117cb336989f2cb9dbcc5",
+  "scientific_config_bundle_sha256": "9012ecc23fdd5cc952c442b633c495dc67505072278897adcbbf67d49309c53c",
+  "real_exploration8_outcomes_seen": false,
+  "design_freeze_note": "Final integrity/VRAM remediation occurred before any real Exploration-8 outcome; see amendment 003."
+}
