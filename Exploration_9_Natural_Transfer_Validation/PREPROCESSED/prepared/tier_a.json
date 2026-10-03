@@ -1,0 +1,30 @@
+{
+  "columns": [
+    "H_mean",
+    "H_std",
+    "H_p10",
+    "H_p50",
+    "H_p90",
+    "H_gradient_mean",
+    "H_gradient_std",
+    "H_abs_laplacian_mean",
+    "H_entropy32",
+    "H_center_minus_ring",
+    "gray_center_minus_ring",
+    "H_ring_std",
+    "central_valid_fraction",
+    "ring_valid_fraction",
+    "H_robust_z",
+    "H_ROI_percentile"
+  ],
+  "definition": "historical E2/E3 Tier-A 16-D RGB/point schema; raw inference-safe per-ROI features; no cross-row standardization applied here",
+  "dtype": "float32",
+  "payload_sha256": "35b6d863f02264f0e1fa820dd5d5b89d3bd2c96c4a07496e2c76113f1eea10cd",
+  "schema_sha256": "c810522f7c506f7587122484d82572d8cb3dae1aff4469c58c226c1152089d53",
+  "shape": [
+    97193,
+    16
+  ],
+  "status": "COMPLETE",
+  "uid_order_sha256": "1cc7b175d4edc64de360a77ee5ffaa92352c2f8c6c0389a215d47d98df729e0e"
+}

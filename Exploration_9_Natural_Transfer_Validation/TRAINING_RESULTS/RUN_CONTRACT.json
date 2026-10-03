@@ -1,0 +1,25 @@
+{
+  "arms": [
+    "ANCHOR",
+    "ANCHOR_CONTEXT_C"
+  ],
+  "config_hash": "7d704f6a94d08a62f9449f65bae161618abe4e850c0f0da28027c6c785f5aa50",
+  "context_init_provenance": "reconstructed_zero_residual_default",
+  "context_scale_init": 0.0,
+  "cpu_threads_last_run": 12,
+  "execution_mode_last_run": "fast",
+  "feature_hashes": {
+    "gaussian192": "453678b4afb624bbaa21615c68e1e604e490f9651a44e591239919ecb6839a59",
+    "gaussian96": "3a7a04c963e7414fb2473ec7378591b0018570af0f5397ce745c47348d347009",
+    "tier_a": "35b6d863f02264f0e1fa820dd5d5b89d3bd2c96c4a07496e2c76113f1eea10cd"
+  },
+  "fold_count": 5,
+  "preparation_summary_sha256": "97b9e7db84ed0ee8d000206e39d396e4888ab5546b998610de634b0590c145f3",
+  "provenance_mode": "EXPLORATORY_ALL_OFFICIAL_TRAIN",
+  "scientific_recipe": "E9_locked_natural_transfer",
+  "seeds": [
+    17,
+    29,
+    43
+  ]
+}

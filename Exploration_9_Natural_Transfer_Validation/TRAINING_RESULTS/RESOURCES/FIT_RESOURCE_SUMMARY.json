@@ -1,0 +1,9 @@
+{
+  "fit_count": 30,
+  "total_fit_wall_seconds": 909.1366304339999,
+  "max_fit_wall_seconds": 34.70285277499988,
+  "peak_process_rss_kb": 5816820,
+  "max_cuda_peak_allocated": 1716900864,
+  "max_cuda_peak_reserved": 2216689664,
+  "cpu_count": 12
+}

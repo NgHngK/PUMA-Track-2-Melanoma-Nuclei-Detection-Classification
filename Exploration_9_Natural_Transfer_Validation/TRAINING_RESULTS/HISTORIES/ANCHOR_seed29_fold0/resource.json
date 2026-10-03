@@ -1,0 +1,7 @@
+{
+  "wall_seconds": 26.249966320999988,
+  "peak_rss_kb": 5410936,
+  "cuda_peak_allocated": 1118383104,
+  "cuda_peak_reserved": 2216689664,
+  "cpu_count": 12
+}

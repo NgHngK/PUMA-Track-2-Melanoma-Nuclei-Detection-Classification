@@ -1,0 +1,64 @@
+{
+  "class_counts": {
+    "apoptosis": 1804,
+    "endothelium": 1696,
+    "epithelium": 2211,
+    "histiocyte": 7168,
+    "lymphocyte": 21643,
+    "melanophage": 695,
+    "neutrophil": 366,
+    "plasma_cell": 520,
+    "stroma": 3856,
+    "tumor": 57234
+  },
+  "class_order": [
+    "tumor",
+    "lymphocyte",
+    "plasma_cell",
+    "histiocyte",
+    "melanophage",
+    "neutrophil",
+    "stroma",
+    "epithelium",
+    "endothelium",
+    "apoptosis"
+  ],
+  "context_center_audit_first_train_roi": {
+    "context_offset_x": 2048,
+    "context_offset_y": 2048,
+    "exact_center_match": true,
+    "mean_abs_diff": 0.0
+  },
+  "dataset_root": "/content/e9_preprocess_stage/PUMA_DATASET",
+  "discovered_roi_count": 205,
+  "excluded_roi_count": 0,
+  "excluded_rois": [],
+  "kept_nucleus_count": 97193,
+  "kept_roi_count": 205,
+  "manifest_semantics": "one row per semantic GeoJSON feature; area centroid; ROI is highest verified grouping level",
+  "manifest_sha256": "96fd617a9fe469ea51a84e62c1b34505ee69ee99cb255679312ca2f1691afd27",
+  "natural_train_nucleus_count": 97193,
+  "natural_train_roi_count": 205,
+  "provenance_mode": "EXPLORATORY_ALL_OFFICIAL_TRAIN",
+  "provenance_warning": "historical E8 role/exposure is external to the dataset folder; strict transfer requires an audited ROI provenance CSV",
+  "role_counts": {
+    "train": 97193
+  },
+  "scientific_status": "EXPLORATORY",
+  "source_class_counts": {
+    "apoptosis": 1804,
+    "endothelium": 1696,
+    "epithelium": 2211,
+    "histiocyte": 7168,
+    "lymphocyte": 21643,
+    "melanophage": 695,
+    "neutrophil": 366,
+    "plasma_cell": 520,
+    "stroma": 3856,
+    "tumor": 57234
+  },
+  "source_semantic_feature_count": 97193,
+  "summary_sha256": "f9c542645efe8ee1e1ecd18e4de671f0fdecab87bc09fd4b78a658c28411b0bb",
+  "uid_order_sha256": "1cc7b175d4edc64de360a77ee5ffaa92352c2f8c6c0389a215d47d98df729e0e",
+  "wide_feature_source": "same 1024x1024 ROI TIFF, FOV192; context TIFF is paired/audited but not used by default"
+}

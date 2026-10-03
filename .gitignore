@@ -5,3 +5,6 @@ system-commandline-sentinel-files/
 
 # Large generated epoch-history output
 Exploration_6_Generalization_Scaling_and_Final_Gaussian_Model/RESULTS/EPOCH_HISTORY/HISTORICAL/EPOCH_SAMPLER_EXPOSURE.csv
+
+# E9 generated feature arrays excluded due to GitHub size limits
+Exploration_9_Natural_Transfer_Validation/PREPROCESSED/features/

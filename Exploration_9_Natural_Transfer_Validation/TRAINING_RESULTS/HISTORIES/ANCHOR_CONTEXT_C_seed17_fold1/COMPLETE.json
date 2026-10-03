@@ -1,0 +1,18 @@
+{
+  "completed_epochs": 10,
+  "held_logits_sha256": "9f818973ab99d8484c195bc731005d5799186a50683f7ac01ae0eabd4d7908c4",
+  "metadata": {
+    "arm": "ANCHOR_CONTEXT_C",
+    "config_hash": "7d704f6a94d08a62f9449f65bae161618abe4e850c0f0da28027c6c785f5aa50",
+    "feature_hashes": {
+      "gaussian192": "453678b4afb624bbaa21615c68e1e604e490f9651a44e591239919ecb6839a59",
+      "gaussian96": "3a7a04c963e7414fb2473ec7378591b0018570af0f5397ce745c47348d347009",
+      "tier_a": "35b6d863f02264f0e1fa820dd5d5b89d3bd2c96c4a07496e2c76113f1eea10cd"
+    },
+    "fold": 1,
+    "fold_hash": "bfd4edaab66474c98cbd5977c4f132e91faf6e11e31fe7a34e559095d8efbffd",
+    "roster_hash": "a84e7e1a85469752d09978673100ecc876741d43e69f8262fa973c6c6daa8141",
+    "seed": 17
+  },
+  "status": "COMPLETE"
+}

@@ -1,0 +1,224 @@
+[
+  {
+    "cell_index": 1,
+    "source": [
+      "from google.colab import drive\n",
+      "drive.mount('/content/drive')\n"
+    ],
+    "execution_count": 1,
+    "outputs": [
+      {
+        "output_type": "stream",
+        "name": "stdout",
+        "text": [
+          "Mounted at /content/drive\n"
+        ]
+      }
+    ]
+  },
+  {
+    "cell_index": 2,
+    "source": [
+      "from pathlib import Path\n",
+      "import os\n",
+      "\n",
+      "PUMA_ROOT = Path('/content/drive/MyDrive/Research/PUMA')\n",
+      "\n",
+      "PROJECT_ROOT = PUMA_ROOT / 'Exploration_9_Natural_Transfer_Validation'\n",
+      "DATASET_ROOT = PUMA_ROOT / 'Dataset'\n",
+      "UNI2_CHECKPOINT = PUMA_ROOT / 'PUMA_pretrained_checkpoints' / 'uni2_h_model.bin'\n",
+      "\n",
+      "PREPROCESSED_ROOT = PROJECT_ROOT / 'PREPROCESSED'\n",
+      "PREP_DIR = PREPROCESSED_ROOT / 'prepared'\n",
+      "FEATURE_DIR = PREPROCESSED_ROOT / 'features'\n",
+      "LOCAL_STAGE = Path('/content/e9_preprocess_stage')\n",
+      "CPU_CORES = os.cpu_count() or 1\n",
+      "\n",
+      "for path in (PROJECT_ROOT, DATASET_ROOT, UNI2_CHECKPOINT):\n",
+      "    if not path.exists():\n",
+      "        raise FileNotFoundError(path)\n",
+      "\n",
+      "PREP_DIR.mkdir(parents=True, exist_ok=True)\n",
+      "FEATURE_DIR.mkdir(parents=True, exist_ok=True)\n",
+      "print('CPU cores:', CPU_CORES)\n"
+    ],
+    "execution_count": 2,
+    "outputs": [
+      {
+        "output_type": "stream",
+        "name": "stdout",
+        "text": [
+          "CPU cores: 12\n"
+        ]
+      }
+    ]
+  },
+  {
+    "cell_index": 3,
+    "source": [
+      "import os, shutil\n",
+      "\n",
+      "# Stage only the files used repeatedly by Tier-A / UNI2 to local SSD.\n",
+      "# Context/tissue folders stay on Drive via symlink; they are only provenance/audit inputs.\n",
+      "LOCAL_DATASET = LOCAL_STAGE / 'PUMA_DATASET'\n",
+      "LOCAL_CHECKPOINT = LOCAL_STAGE / 'uni2_h_model.bin'\n",
+      "LOCAL_STAGE.mkdir(parents=True, exist_ok=True)\n",
+      "LOCAL_DATASET.mkdir(parents=True, exist_ok=True)\n",
+      "\n",
+      "for name in ('01_training_dataset_tif_ROIs', '01_training_dataset_geojson_nuclei'):\n",
+      "    src = DATASET_ROOT / name\n",
+      "    dst = LOCAL_DATASET / name\n",
+      "    marker = dst / '.STAGED_COMPLETE'\n",
+      "    if not marker.is_file():\n",
+      "        if dst.exists():\n",
+      "            shutil.rmtree(dst)\n",
+      "        shutil.copytree(src, dst)\n",
+      "        marker.write_text('complete')\n",
+      "\n",
+      "for name in ('01_training_dataset_tif_context_ROIs', '01_training_dataset_geojson_tissue'):\n",
+      "    src = DATASET_ROOT / name\n",
+      "    dst = LOCAL_DATASET / name\n",
+      "    if not dst.exists():\n",
+      "        dst.symlink_to(src, target_is_directory=True)\n",
+      "\n",
+      "if (not LOCAL_CHECKPOINT.is_file()) or LOCAL_CHECKPOINT.stat().st_size != UNI2_CHECKPOINT.stat().st_size:\n",
+      "    shutil.copy2(UNI2_CHECKPOINT, LOCAL_CHECKPOINT)\n",
+      "\n",
+      "print('Local dataset:', LOCAL_DATASET)\n",
+      "print('Local UNI2:', LOCAL_CHECKPOINT)\n"
+    ],
+    "execution_count": 3,
+    "outputs": [
+      {
+        "output_type": "stream",
+        "name": "stdout",
+        "text": [
+          "Local dataset: /content/e9_preprocess_stage/PUMA_DATASET\n",
+          "Local UNI2: /content/e9_preprocess_stage/uni2_h_model.bin\n"
+        ]
+      }
+    ]
+  },
+  {
+    "cell_index": 4,
+    "source": [
+      "import os, sys, subprocess\n",
+      "os.chdir(PROJECT_ROOT)\n",
+      "sys.path.insert(0, str(PROJECT_ROOT))\n",
+      "\n",
+      "# Crop/Tier-A parallelism uses all logical cores. Keep native kernels single-threaded\n",
+      "# inside each worker so CPU cores are not oversubscribed.\n",
+      "for key in ('OMP_NUM_THREADS','MKL_NUM_THREADS','OPENBLAS_NUM_THREADS','NUMEXPR_NUM_THREADS'):\n",
+      "    os.environ[key] = '1'\n",
+      "\n",
+      "subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', '-r', 'requirements.txt'], check=True)\n"
+    ],
+    "execution_count": 4,
+    "outputs": [
+      {
+        "output_type": "execute_result",
+        "data": {
+          "text/plain": [
+            "CompletedProcess(args=['/usr/bin/python3', '-m', 'pip', 'install', '-q', '-r', 'requirements.txt'], returncode=0)"
+          ]
+        },
+        "metadata": {},
+        "execution_count": 4
+      }
+    ]
+  },
+  {
+    "cell_index": 5,
+    "source": [
+      "import torch\n",
+      "if not torch.cuda.is_available():\n",
+      "    raise RuntimeError('Select a GPU runtime in Colab.')\n",
+      "torch.set_float32_matmul_precision('highest')\n",
+      "torch.backends.cuda.matmul.allow_tf32 = False\n",
+      "print('GPU:', torch.cuda.get_device_name(0))\n",
+      "print('VRAM GB:', round(torch.cuda.get_device_properties(0).total_memory / 1024**3, 2))\n"
+    ],
+    "execution_count": 5,
+    "outputs": [
+      {
+        "output_type": "stream",
+        "name": "stdout",
+        "text": [
+          "GPU: NVIDIA A100-SXM4-80GB\n",
+          "VRAM GB: 79.25\n"
+        ]
+      }
+    ]
+  },
+  {
+    "cell_index": 6,
+    "source": [
+      "import subprocess\n",
+      "\n",
+      "subprocess.run([\n",
+      "    sys.executable, '-m', 'CODE.CLI.prepare_dataset',\n",
+      "    '--dataset-root', str(LOCAL_DATASET),\n",
+      "    '--output-dir', str(PREP_DIR),\n",
+      "    '--exploratory-all-official-train',\n",
+      "    '--workers', '0',\n",
+      "], check=True)\n",
+      "\n",
+      "subprocess.run([\n",
+      "    sys.executable, '-m', 'CODE.CLI.extract',\n",
+      "    '--manifest', str(PREP_DIR / 'e9_natural_train_roster.csv'),\n",
+      "    '--checkpoint', str(LOCAL_CHECKPOINT),\n",
+      "    '--output-dir', str(FEATURE_DIR),\n",
+      "    '--device', 'cuda',\n",
+      "    '--microbatch', 'auto',\n",
+      "    '--max-microbatch', '0',\n",
+      "    '--cpu-workers', '0',\n",
+      "    '--features', 'local', 'wide',\n",
+      "], check=True)\n"
+    ],
+    "execution_count": 6,
+    "outputs": [
+      {
+        "output_type": "execute_result",
+        "data": {
+          "text/plain": [
+            "CompletedProcess(args=['/usr/bin/python3', '-m', 'CODE.CLI.extract', '--manifest', '/content/drive/MyDrive/Research/PUMA/Exploration_9_Natural_Transfer_Validation/PREPROCESSED/prepared/e9_natural_train_roster.csv', '--checkpoint', '/content/e9_preprocess_stage/uni2_h_model.bin', '--output-dir', '/content/drive/MyDrive/Research/PUMA/Exploration_9_Natural_Transfer_Validation/PREPROCESSED/features', '--device', 'cuda', '--microbatch', 'auto', '--max-microbatch', '0', '--cpu-workers', '0', '--features', 'local', 'wide'], returncode=0)"
+          ]
+        },
+        "metadata": {},
+        "execution_count": 6
+      }
+    ]
+  },
+  {
+    "cell_index": 7,
+    "source": [
+      "import json\n",
+      "status = {\n",
+      "    'status': 'PREPROCESS_COMPLETE',\n",
+      "    'prepared_dir': str(PREP_DIR),\n",
+      "    'feature_dir': str(FEATURE_DIR),\n",
+      "}\n",
+      "(PREPROCESSED_ROOT / 'PREPROCESS_STATUS.json').write_text(json.dumps(status, indent=2))\n",
+      "print(status)\n"
+    ],
+    "execution_count": 7,
+    "outputs": [
+      {
+        "output_type": "stream",
+        "name": "stdout",
+        "text": [
+          "{'status': 'PREPROCESS_COMPLETE', 'prepared_dir': '/content/drive/MyDrive/Research/PUMA/Exploration_9_Natural_Transfer_Validation/PREPROCESSED/prepared', 'feature_dir': '/content/drive/MyDrive/Research/PUMA/Exploration_9_Natural_Transfer_Validation/PREPROCESSED/features'}\n"
+        ]
+      }
+    ]
+  },
+  {
+    "cell_index": 8,
+    "source": [
+      "from google.colab import runtime\n",
+      "runtime.unassign()"
+    ],
+    "execution_count": 8,
+    "outputs": []
+  }
+]

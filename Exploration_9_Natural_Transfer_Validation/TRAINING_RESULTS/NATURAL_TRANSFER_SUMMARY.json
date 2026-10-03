@@ -1,0 +1,156 @@
+{
+  "decision": "TRANSFER_PASS",
+  "decision_reasons": [
+    "all locked gates passed"
+  ],
+  "mean_roi_delta": 0.019563479669336675,
+  "roi_bootstrap": {
+    "mean": 0.019566680894599037,
+    "lower": 0.016548355719802475,
+    "upper": 0.022665436440666983,
+    "replicates": 5000
+  },
+  "mean_summed_delta": 0.0621266852631512,
+  "summed_bootstrap": {
+    "mean": 0.062080909693189607,
+    "lower": 0.050379018933992534,
+    "upper": 0.07480568874619854,
+    "replicates": 5000
+  },
+  "positive_seed_count": 3,
+  "mean_recall_delta": [
+    0.08711022585642565,
+    0.03468403948928837,
+    -0.005769230769230786,
+    0.0275762648809524,
+    -0.07482014388489207,
+    0.010928961748633892,
+    8.644536652835377e-05,
+    0.12377506407357157,
+    0.011399371069182393,
+    0.012564671101256475
+  ],
+  "max_mean_recall_drop": 0.07482014388489207,
+  "max_seed_recall_drop": 0.08057553956834529,
+  "positive_roi_counts_per_class": [
+    205,
+    193,
+    56,
+    115,
+    77,
+    30,
+    160,
+    29,
+    126,
+    126
+  ],
+  "kish_effective_roi_support": [
+    152.85705934281182,
+    81.37097963013179,
+    7.195316657796701,
+    65.20895711812695,
+    22.68255459027941,
+    4.346116410356239,
+    75.59477350144898,
+    12.494590429161843,
+    68.51219512195122,
+    26.431590403326673
+  ],
+  "all_classes_at_least_5_positive_rois": true,
+  "roi_count": 205,
+  "broad_natural": true,
+  "leave_one_roi_out_min_delta": 0.019227485566316194,
+  "leave_one_roi_out_max_delta": 0.019868405199542704,
+  "leave_one_roi_out_all_positive": true,
+  "per_seed": {
+    "17": {
+      "anchor_roi_f1": 0.2580759787907793,
+      "context_roi_f1": 0.28248320359265044,
+      "roi_delta": 0.02440722480187113,
+      "anchor_summed_f1": 0.4647234978953702,
+      "context_summed_f1": 0.5375619389662679,
+      "summed_delta": 0.07283844107089771,
+      "recall_delta": [
+        0.08498444980256492,
+        0.04412512128632817,
+        -0.00576923076923086,
+        0.056919642857142905,
+        -0.08057553956834529,
+        0.010928961748633892,
+        -0.01167012448132776,
+        0.1099050203527816,
+        0.04068396226415094,
+        0.045454545454545525
+      ],
+      "anchor_nll": 1.110773005376907,
+      "context_nll": 1.109190926523666,
+      "anchor_ece15": 0.13750311498912707,
+      "context_ece15": 0.147488734355749
+    },
+    "29": {
+      "anchor_roi_f1": 0.25522993330307103,
+      "context_roi_f1": 0.27603392794723686,
+      "roi_delta": 0.020803994644165824,
+      "anchor_summed_f1": 0.4725850317524502,
+      "context_summed_f1": 0.5270717095126443,
+      "summed_delta": 0.05448667776019406,
+      "recall_delta": [
+        0.09419226333997277,
+        0.02444208289054206,
+        -0.03653846153846152,
+        0.025390625,
+        -0.07625899280575543,
+        0.008196721311475419,
+        -0.010373443983402453,
+        0.11171415649027594,
+        0.007665094339622702,
+        0.0044345898004434225
+      ],
+      "anchor_nll": 1.1203668027182114,
+      "context_nll": 1.1102400250202993,
+      "anchor_ece15": 0.13641198859202391,
+      "context_ece15": 0.14708870128014573
+    },
+    "43": {
+      "anchor_roi_f1": 0.2616883732022749,
+      "context_roi_f1": 0.27516759276424796,
+      "roi_delta": 0.013479219561973066,
+      "anchor_summed_f1": 0.4697315443288551,
+      "context_summed_f1": 0.528786481287217,
+      "summed_delta": 0.05905493695836184,
+      "recall_delta": [
+        0.08215396442673928,
+        0.03548491429099487,
+        0.025000000000000022,
+        0.0004185267857143016,
+        -0.0676258992805755,
+        0.013661202185792365,
+        0.022302904564315273,
+        0.14970601537765715,
+        -0.014150943396226467,
+        -0.012195121951219523
+      ],
+      "anchor_nll": 1.0804092795066007,
+      "context_nll": 1.0826956171350783,
+      "anchor_ece15": 0.1325874208294393,
+      "context_ece15": 0.1421901763351538
+    }
+  },
+  "fold_count": 5,
+  "config_hash": "7d704f6a94d08a62f9449f65bae161618abe4e850c0f0da28027c6c785f5aa50",
+  "provenance_mode": "EXPLORATORY_ALL_OFFICIAL_TRAIN",
+  "context_scale_init": 0.0,
+  "context_init_provenance": "reconstructed_zero_residual_default",
+  "scientific_status": "EXPLORATORY",
+  "execution_mode": "fast",
+  "resources": {
+    "fit_count": 30,
+    "total_fit_wall_seconds": 909.1366304339999,
+    "max_fit_wall_seconds": 34.70285277499988,
+    "peak_process_rss_kb": 5816820,
+    "max_cuda_peak_allocated": 1716900864,
+    "max_cuda_peak_reserved": 2216689664,
+    "cpu_count": 12
+  },
+  "note": "ROI-grouped official-training OOF. Patient-level independence is unverified."
+}
