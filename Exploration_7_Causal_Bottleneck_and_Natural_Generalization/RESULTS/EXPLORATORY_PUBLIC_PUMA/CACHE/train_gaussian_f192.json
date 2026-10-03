@@ -1,0 +1,20 @@
+{
+  "kind": "gaussian_features",
+  "array_file": "train_gaussian_f192.npy",
+  "array_sha256": "94392620596c50a3bd69829aa6b75aef0e39b2fa2ff1e2298ad0e181f014e806",
+  "array_size_bytes": 90697856,
+  "array_mtime_ns": 1789320335000000000,
+  "manifest_file": "train.csv",
+  "manifest_sha256": "e96d1bd3ed0f8e3543cd109c71cb1b84bd82d530c1b7aa8b15ac051e70eafdfe",
+  "row_identity_sha256": "cfa28a1279aab895b63727739e5f3c0f929925e51c8aecc917fe02563049d922",
+  "n": 14762,
+  "weights_sha256": "32cc070acd809d087debdbe483f388561cf03de825cc7c2935d1732dfb427ffe",
+  "fov": 192,
+  "sigma": 1.5,
+  "shape": [
+    14762,
+    1536
+  ],
+  "extraction_batch_size": 4,
+  "num_workers": 4
+}

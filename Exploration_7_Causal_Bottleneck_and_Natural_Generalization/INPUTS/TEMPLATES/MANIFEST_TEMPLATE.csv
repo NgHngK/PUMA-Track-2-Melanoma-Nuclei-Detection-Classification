@@ -1,0 +1,2 @@
+uid,roi,group,patient,case,slide,image,x,y,label,split,gt_x,gt_y
+example:0,roi001,case001,,,,/path/roi001.tif,100.5,200.5,0,train,,

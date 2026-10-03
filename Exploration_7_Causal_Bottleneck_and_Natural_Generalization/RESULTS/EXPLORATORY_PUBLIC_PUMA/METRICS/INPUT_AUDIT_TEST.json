@@ -1,0 +1,87 @@
+{
+  "n": 5945,
+  "group_column": "group",
+  "groups": 11,
+  "class_group_support": [
+    {
+      "class_id": 0,
+      "class_name": "tumor",
+      "n": 2505,
+      "groups": 11,
+      "effective_groups_kish": 7.01647719458319,
+      "group_col": "group"
+    },
+    {
+      "class_id": 1,
+      "class_name": "lymphocyte",
+      "n": 1874,
+      "groups": 10,
+      "effective_groups_kish": 5.56723080727697,
+      "group_col": "group"
+    },
+    {
+      "class_id": 2,
+      "class_name": "plasma_cell",
+      "n": 40,
+      "groups": 4,
+      "effective_groups_kish": 1.5180265654648957,
+      "group_col": "group"
+    },
+    {
+      "class_id": 3,
+      "class_name": "histiocyte",
+      "n": 702,
+      "groups": 8,
+      "effective_groups_kish": 4.774029798694127,
+      "group_col": "group"
+    },
+    {
+      "class_id": 4,
+      "class_name": "melanophage",
+      "n": 60,
+      "groups": 4,
+      "effective_groups_kish": 2.4896265560165975,
+      "group_col": "group"
+    },
+    {
+      "class_id": 5,
+      "class_name": "neutrophil",
+      "n": 17,
+      "groups": 3,
+      "effective_groups_kish": 2.7523809523809524,
+      "group_col": "group"
+    },
+    {
+      "class_id": 6,
+      "class_name": "stroma",
+      "n": 223,
+      "groups": 7,
+      "effective_groups_kish": 3.9971867213246526,
+      "group_col": "group"
+    },
+    {
+      "class_id": 7,
+      "class_name": "epithelium",
+      "n": 185,
+      "groups": 2,
+      "effective_groups_kish": 1.974557203023135,
+      "group_col": "group"
+    },
+    {
+      "class_id": 8,
+      "class_name": "endothelium",
+      "n": 142,
+      "groups": 9,
+      "effective_groups_kish": 4.798667301285103,
+      "group_col": "group"
+    },
+    {
+      "class_id": 9,
+      "class_name": "apoptosis",
+      "n": 197,
+      "groups": 10,
+      "effective_groups_kish": 2.66380671288352,
+      "group_col": "group"
+    }
+  ]
+}

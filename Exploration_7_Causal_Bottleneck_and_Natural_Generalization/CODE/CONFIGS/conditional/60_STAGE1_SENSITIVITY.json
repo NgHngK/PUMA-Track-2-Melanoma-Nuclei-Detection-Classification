@@ -1,0 +1,6 @@
+{
+  "id": "H7.6",
+  "hypothesis": "Stage1 localization/proposal error creates an additional end-to-end ceiling.",
+  "condition": "run only when complete proposal manifest with gt_x/gt_y and prediction UIDs exists",
+  "analysis": "performance versus center-error bins plus exact V17 end-to-end evaluation if certified proposals are available"
+}

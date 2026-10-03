@@ -1,0 +1,15 @@
+{
+  "run_mode": "exploratory_public_puma",
+  "prompt6_root": "/content/drive/MyDrive/Research/PUMA/PUMA_STAGE2_COLAB",
+  "prompt6_checkpoint_seed17": "<P7_ROOT>/INPUTS/PROMPT6_CHECKPOINTS/model_seed17.pt",
+  "prompt6_checkpoint_seed29": "<P7_ROOT>/INPUTS/PROMPT6_CHECKPOINTS/model_seed29.pt",
+  "prompt6_checkpoint_seed43": "<P7_ROOT>/INPUTS/PROMPT6_CHECKPOINTS/model_seed43.pt",
+  "prompt6_natural_result": "<PROMPT6_ROOT>/COLAB_RESULTS/STAGE_I/LOCKED_NATURAL_RESULT.json",
+  "prompt6_natural_manifest": "<PROMPT6_ROOT>/INPUTS/DATA_PRESELECTION/SELECTION/LOCKED_NATURAL.csv",
+  "uni2_weights": "<PROMPT6_ROOT>/INPUTS/WEIGHTS/uni2_h_model.bin",
+  "prompt7_natural_train_manifest": "<P7_ROOT>/INPUTS/EXPLORATORY_PUBLIC_PUMA_READY/prompt7_natural_train_manifest.csv",
+  "prompt7_natural_calibration_manifest": "<P7_ROOT>/INPUTS/EXPLORATORY_PUBLIC_PUMA_READY/prompt7_natural_calibration_manifest.csv",
+  "prompt7_natural_test_manifest": "<P7_ROOT>/INPUTS/EXPLORATORY_PUBLIC_PUMA_READY/prompt7_natural_test_manifest.csv",
+  "prompt7_stage1_manifest": "",
+  "prompt7_stage1_predictions": ""
+}

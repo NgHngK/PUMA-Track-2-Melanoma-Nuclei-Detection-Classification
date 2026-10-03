@@ -1,0 +1,31 @@
+{
+  "frozen_utc": "2026-09-13T17:25:41.739648+00:00",
+  "config": {
+    "id": "H7.1",
+    "hypothesis": "Natural false-positive inflation is materially caused by train-effective versus target-prior mismatch.",
+    "intervention": "Frozen Prompt6 logits + log(target_prior/source_effective_prior).",
+    "source_prior": "effective sampler prior; use measured exposure if available, otherwise uniform is a declared approximation for inverse-frequency replacement sampling.",
+    "target_prior": "new calibration cohort only, Dirichlet alpha=0.5",
+    "control": "unchanged frozen Prompt6 logits",
+    "primary": "PUMA ROI fixed10 macro-F1 on untouched new natural test",
+    "success": "paired ROI bootstrap 95% CI for delta > 0; no supported-class recall loss >0.10; tail false-positive burden decreases",
+    "diagnostics": [
+      "temperature scaling NLL/ECE only",
+      "class-bias diagnostic",
+      "oracle one-vs-rest thresholds calibration-only"
+    ],
+    "seed_replication": {
+      "primary": 17,
+      "replicate": [
+        29,
+        43
+      ],
+      "policy": "on_primary_pass",
+      "same_settings_across_seeds": true,
+      "ensemble": false
+    }
+  },
+  "config_sha256": "04a0a0b24bb22c1d91094e2ffa7b72bde7e347e6e3286bd1b6b8e848545894ce",
+  "config_file_sha256": "24f3e6fc92291621899bd5695819e25053142b6ba8e7f66940f5a241e3e1f20e",
+  "status": "FROZEN_BEFORE_RESULTS"
+}

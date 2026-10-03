@@ -1,0 +1,35 @@
+{
+  "project": "PUMA Prompt 7 - causal bottleneck and natural generalization",
+  "primary_question": "Why is absolute performance still low despite Gaussian UNI2 gains, and what smallest interventions can substantially improve it?",
+  "frozen_anchor": {
+    "encoder": "UNI2-h",
+    "representation": "gaussian",
+    "sigma": 1.5,
+    "fov": 96,
+    "head": "A5 rank8 appearance x Tier-A",
+    "prompt6_seed": "17 primary; 29/43 preregistered replication checkpoints"
+  },
+  "strict_rules": [
+    "Prompt6 confirmation and locked-natural holdouts are historical diagnostics only; never tune Prompt7 on them.",
+    "Use new group-disjoint natural calibration/test for confirmatory Exp1/2.",
+    "One mechanistic variable per experiment; no HPO sweeps.",
+    "Protocol freeze precedes results.",
+    "Report fixed10 and supported metrics plus class precision/recall/predicted counts."
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "recall_harm_guard": 0.1,
+  "seed_replication": {
+    "primary_seed": 17,
+    "replication_seeds": [
+      29,
+      43
+    ],
+    "policy": "run seed17 first; seed29/43 automatically execute unchanged only after the primary intervention gate passes; Exp3 and Exp5 are intrinsically three-seed mechanistic studies",
+    "no_ensemble": true,
+    "no_seed_specific_tuning": true
+  }
+}

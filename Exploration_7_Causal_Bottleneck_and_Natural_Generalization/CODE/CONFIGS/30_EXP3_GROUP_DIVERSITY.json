@@ -1,0 +1,14 @@
+{
+  "id": "H7.3",
+  "hypothesis": "Independent biological group count, not nucleus count, is the dominant data bottleneck.",
+  "design": "matched total nuclei/class; low-diversity=2 source groups/class versus high-diversity=8 groups/class; 40 nuclei/class where feasible; fixed classifier protocol",
+  "primary": "group-disjoint test macro-F1 and per-class AUPRC",
+  "success": "high-diversity arm wins consistently at the fixed matched sample count across the preregistered seeds 17/29/43; the density arm distinguishes additional groups from additional same-group nuclei",
+  "failure": "if matched high-diversity does not improve, pure pseudo-replication becomes less likely",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "checkpoint_policy": "use the matching Prompt-6 Gaussian checkpoint for each seed"
+}

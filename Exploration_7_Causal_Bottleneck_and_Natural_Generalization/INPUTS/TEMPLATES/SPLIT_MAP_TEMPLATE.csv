@@ -1,0 +1,4 @@
+roi,split,group,patient,case,slide,stain_batch
+new_roi_001,train,new_case_001,,new_case_001,,
+new_roi_002,calibration,new_case_002,,new_case_002,,
+new_roi_003,test,new_case_003,,new_case_003,,

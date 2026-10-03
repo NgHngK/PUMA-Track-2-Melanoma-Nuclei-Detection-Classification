@@ -1,0 +1,12 @@
+{
+  "primary_seed": 17,
+  "replication_seeds": [
+    29,
+    43
+  ],
+  "checkpoints": {
+    "17": "/content/drive/MyDrive/Research/PUMA/Exploration_7_Causal_Bottleneck_and_Natural_Generalization/INPUTS/PROMPT6_CHECKPOINTS/model_seed17.pt",
+    "29": "/content/drive/MyDrive/Research/PUMA/Exploration_7_Causal_Bottleneck_and_Natural_Generalization/INPUTS/PROMPT6_CHECKPOINTS/model_seed29.pt",
+    "43": "/content/drive/MyDrive/Research/PUMA/Exploration_7_Causal_Bottleneck_and_Natural_Generalization/INPUTS/PROMPT6_CHECKPOINTS/model_seed43.pt"
+  }
+}

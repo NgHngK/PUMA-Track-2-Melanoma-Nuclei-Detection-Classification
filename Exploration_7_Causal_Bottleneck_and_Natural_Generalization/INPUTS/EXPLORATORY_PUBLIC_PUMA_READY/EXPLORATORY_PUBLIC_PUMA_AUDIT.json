@@ -1,0 +1,129 @@
+{
+  "status": "EXPLORATORY_ONLY_NOT_CONFIRMATORY",
+  "source_manifest": "C:\\Users\\Hngk\\Downloads\\PUMA_STAGE2_COLAB-20260913T092151Z-1-001\\PUMA_STAGE2_COLAB\\INPUTS\\DATA_PRESELECTION\\FULL_GT_MANIFEST.csv",
+  "source_manifest_sha256": "4eb0111c61f57e06ac49b813cdeca9ecf002fc3b64087c968740d83f4b31d5c4",
+  "source_exposure": "Public PUMA ROIs already used or opened during Prompt 6.",
+  "selection": "Deterministic label-informed compact ROI selection for code-path coverage; all nuclei in each selected ROI are retained.",
+  "colab_image_root": "/content/drive/MyDrive/Research/PUMA/Exploration_7_Causal_Bottleneck_and_Natural_Generalization/INPUTS/EXPLORATORY_PUBLIC_PUMA_READY/images",
+  "bundled_images": true,
+  "bundled_image_count": 49,
+  "exp3_eligible_classes": {
+    "diversity": 10,
+    "density": 10
+  },
+  "manifests": {
+    "train": {
+      "path": "C:\\Users\\Hngk\\Documents\\Codex\\PUMA_STAGE2\\Exploration_7_Causal_Bottleneck_and_Natural_Generalization\\INPUTS\\EXPLORATORY_PUBLIC_PUMA_READY\\prompt7_natural_train_manifest.csv",
+      "sha256": "4359158a394fe5889949fc61e88547063c5d8100275c94b758403fc8d2abb9c9",
+      "rows": 14762,
+      "rois": 27,
+      "groups": 27,
+      "class_counts": {
+        "0": 5802,
+        "1": 4016,
+        "2": 264,
+        "3": 1287,
+        "4": 225,
+        "5": 294,
+        "6": 757,
+        "7": 1188,
+        "8": 358,
+        "9": 571
+      },
+      "roster": [
+        "training_set_metastatic_roi_013",
+        "training_set_metastatic_roi_027",
+        "training_set_metastatic_roi_032",
+        "training_set_metastatic_roi_039",
+        "training_set_metastatic_roi_046",
+        "training_set_metastatic_roi_055",
+        "training_set_metastatic_roi_056",
+        "training_set_metastatic_roi_057",
+        "training_set_metastatic_roi_067",
+        "training_set_metastatic_roi_080",
+        "training_set_metastatic_roi_101",
+        "training_set_primary_roi_001",
+        "training_set_primary_roi_012",
+        "training_set_primary_roi_013",
+        "training_set_primary_roi_021",
+        "training_set_primary_roi_025",
+        "training_set_primary_roi_031",
+        "training_set_primary_roi_036",
+        "training_set_primary_roi_042",
+        "training_set_primary_roi_043",
+        "training_set_primary_roi_049",
+        "training_set_primary_roi_052",
+        "training_set_primary_roi_061",
+        "training_set_primary_roi_083",
+        "training_set_primary_roi_101",
+        "training_set_primary_roi_102",
+        "training_set_primary_roi_103"
+      ]
+    },
+    "calibration": {
+      "path": "C:\\Users\\Hngk\\Documents\\Codex\\PUMA_STAGE2\\Exploration_7_Causal_Bottleneck_and_Natural_Generalization\\INPUTS\\EXPLORATORY_PUBLIC_PUMA_READY\\prompt7_natural_calibration_manifest.csv",
+      "sha256": "f3e3f79d71e5838fe734a6e59b37b8951f4f5b782f08b66c5f0b77e50737372c",
+      "rows": 5811,
+      "rois": 11,
+      "groups": 11,
+      "class_counts": {
+        "0": 2409,
+        "1": 1719,
+        "2": 90,
+        "3": 611,
+        "4": 65,
+        "5": 11,
+        "6": 325,
+        "7": 318,
+        "8": 126,
+        "9": 137
+      },
+      "roster": [
+        "training_set_metastatic_roi_001",
+        "training_set_metastatic_roi_025",
+        "training_set_metastatic_roi_047",
+        "training_set_metastatic_roi_051",
+        "training_set_metastatic_roi_086",
+        "training_set_primary_roi_006",
+        "training_set_primary_roi_011",
+        "training_set_primary_roi_047",
+        "training_set_primary_roi_054",
+        "training_set_primary_roi_089",
+        "training_set_primary_roi_095"
+      ]
+    },
+    "test": {
+      "path": "C:\\Users\\Hngk\\Documents\\Codex\\PUMA_STAGE2\\Exploration_7_Causal_Bottleneck_and_Natural_Generalization\\INPUTS\\EXPLORATORY_PUBLIC_PUMA_READY\\prompt7_natural_test_manifest.csv",
+      "sha256": "0e70467045260413ff32fdd36146384c2505f751f6959345d9b26cc7856f9eee",
+      "rows": 5945,
+      "rois": 11,
+      "groups": 11,
+      "class_counts": {
+        "0": 2505,
+        "1": 1874,
+        "2": 40,
+        "3": 702,
+        "4": 60,
+        "5": 17,
+        "6": 223,
+        "7": 185,
+        "8": 142,
+        "9": 197
+      },
+      "roster": [
+        "training_set_metastatic_roi_059",
+        "training_set_metastatic_roi_071",
+        "training_set_metastatic_roi_102",
+        "training_set_primary_roi_057",
+        "training_set_primary_roi_059",
+        "training_set_primary_roi_067",
+        "training_set_primary_roi_070",
+        "training_set_primary_roi_073",
+        "training_set_primary_roi_082",
+        "training_set_primary_roi_091",
+        "training_set_primary_roi_096"
+      ]
+    }
+  },
+  "warning": "These files are only for pipeline debugging. Their label-informed ROI selection and historical exposure invalidate prospective or confirmatory interpretation."
+}

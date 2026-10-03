@@ -1,0 +1,5 @@
+{
+  "run_mode": "exploratory_public_puma",
+  "confirmatory_claims_allowed": false,
+  "warning": "EXPLORATORY ONLY: public PUMA data were exposed during Prompt 6."
+}

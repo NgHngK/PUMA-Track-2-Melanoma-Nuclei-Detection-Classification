@@ -1,0 +1,21 @@
+{
+  "frozen_utc": "2026-09-13T17:27:04.697770+00:00",
+  "config": {
+    "id": "H7.5",
+    "hypothesis": "Specific residual pairs require context outside nucleus-local Gaussian features.",
+    "intervention": "same fixed grouped linear probe on local FOV96 Gaussian versus local+single larger-context Gaussian feature",
+    "control": "local only",
+    "context_fov": 192,
+    "primary": "grouped-CV macro-F1 and pairwise AUPRC",
+    "success": "context improves all grouped folds and targeted pairs without broad degradation",
+    "failure": "deprioritize multiscale/context architecture",
+    "probe_seeds": [
+      17,
+      29,
+      43
+    ]
+  },
+  "config_sha256": "b75444f1645c1a1d1d13f180f172bfbce475be5d70d4e97c7a6940b9dcd4f296",
+  "config_file_sha256": "de1afa241ddec4d29f2876ac99a60f918e424909f8a2e1b6ceb3d38779025d1b",
+  "status": "FROZEN_BEFORE_RESULTS"
+}

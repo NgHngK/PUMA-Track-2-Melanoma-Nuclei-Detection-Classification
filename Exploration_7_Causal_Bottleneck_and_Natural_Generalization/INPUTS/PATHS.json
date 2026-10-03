@@ -1,0 +1,15 @@
+{
+  "run_mode": "exploratory_public_puma",
+  "prompt6_root": "/content/drive/MyDrive/Research/PUMA/PUMA_STAGE2_COLAB",
+  "prompt6_checkpoint_seed17": "/content/drive/MyDrive/Research/PUMA/Exploration_7_Causal_Bottleneck_and_Natural_Generalization/INPUTS/PROMPT6_CHECKPOINTS/model_seed17.pt",
+  "prompt6_checkpoint_seed29": "/content/drive/MyDrive/Research/PUMA/Exploration_7_Causal_Bottleneck_and_Natural_Generalization/INPUTS/PROMPT6_CHECKPOINTS/model_seed29.pt",
+  "prompt6_checkpoint_seed43": "/content/drive/MyDrive/Research/PUMA/Exploration_7_Causal_Bottleneck_and_Natural_Generalization/INPUTS/PROMPT6_CHECKPOINTS/model_seed43.pt",
+  "prompt6_natural_result": "/content/drive/MyDrive/Research/PUMA/PUMA_STAGE2_COLAB/COLAB_RESULTS/STAGE_I/LOCKED_NATURAL_RESULT.json",
+  "prompt6_natural_manifest": "/content/drive/MyDrive/Research/PUMA/PUMA_STAGE2_COLAB/INPUTS/DATA_PRESELECTION/SELECTION/LOCKED_NATURAL.csv",
+  "uni2_weights": "/content/drive/MyDrive/Research/PUMA/PUMA_STAGE2_COLAB/INPUTS/WEIGHTS/uni2_h_model.bin",
+  "prompt7_natural_train_manifest": "/content/drive/MyDrive/Research/PUMA/Exploration_7_Causal_Bottleneck_and_Natural_Generalization/INPUTS/EXPLORATORY_PUBLIC_PUMA_READY/prompt7_natural_train_manifest.csv",
+  "prompt7_natural_calibration_manifest": "/content/drive/MyDrive/Research/PUMA/Exploration_7_Causal_Bottleneck_and_Natural_Generalization/INPUTS/EXPLORATORY_PUBLIC_PUMA_READY/prompt7_natural_calibration_manifest.csv",
+  "prompt7_natural_test_manifest": "/content/drive/MyDrive/Research/PUMA/Exploration_7_Causal_Bottleneck_and_Natural_Generalization/INPUTS/EXPLORATORY_PUBLIC_PUMA_READY/prompt7_natural_test_manifest.csv",
+  "prompt7_stage1_manifest": "",
+  "prompt7_stage1_predictions": ""
+}

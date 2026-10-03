@@ -1,0 +1,15 @@
+{
+  "id": "H7.5",
+  "hypothesis": "Specific residual pairs require context outside nucleus-local Gaussian features.",
+  "intervention": "same fixed grouped linear probe on local FOV96 Gaussian versus local+single larger-context Gaussian feature",
+  "control": "local only",
+  "context_fov": 192,
+  "primary": "grouped-CV macro-F1 and pairwise AUPRC",
+  "success": "context improves all grouped folds and targeted pairs without broad degradation",
+  "failure": "deprioritize multiscale/context architecture",
+  "probe_seeds": [
+    17,
+    29,
+    43
+  ]
+}

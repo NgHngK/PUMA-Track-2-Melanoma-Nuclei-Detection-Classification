@@ -1,0 +1,11 @@
+class_id,class_name,status,available_groups,rows_per_arm,low_groups,high_groups,realized_low_groups,realized_high_groups
+0,tumor,included,27,40,2,8,2,8
+1,lymphocyte,included,26,40,2,8,2,8
+2,plasma_cell,included,11,40,2,8,2,8
+3,histiocyte,included,18,40,2,8,2,8
+4,melanophage,included,15,40,2,8,2,8
+5,neutrophil,included,8,40,2,8,2,8
+6,stroma,included,24,40,2,8,2,8
+7,epithelium,included,8,40,2,8,2,8
+8,endothelium,included,21,40,2,8,2,8
+9,apoptosis,included,16,40,2,8,2,8

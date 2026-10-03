@@ -1,0 +1,33 @@
+{
+  "kind": "tier_a",
+  "array_file": "train_tierA.npy",
+  "array_sha256": "8aea22d403fe2940afdb8cba426cfa2407c2de55a19847270f423ad0c54a89aa",
+  "array_size_bytes": 944896,
+  "array_mtime_ns": 1789318168000000000,
+  "manifest_file": "train.csv",
+  "manifest_sha256": "e96d1bd3ed0f8e3543cd109c71cb1b84bd82d530c1b7aa8b15ac051e70eafdfe",
+  "row_identity_sha256": "cfa28a1279aab895b63727739e5f3c0f929925e51c8aecc917fe02563049d922",
+  "n": 14762,
+  "shape": [
+    14762,
+    16
+  ],
+  "feature_names": [
+    "H_mean",
+    "H_std",
+    "H_p10",
+    "H_p50",
+    "H_p90",
+    "H_gradient_mean",
+    "H_gradient_std",
+    "H_abs_laplacian_mean",
+    "H_entropy32",
+    "H_center_minus_ring",
+    "gray_center_minus_ring",
+    "H_ring_std",
+    "central_valid_fraction",
+    "ring_valid_fraction",
+    "H_robust_z",
+    "H_ROI_percentile"
+  ]
+}

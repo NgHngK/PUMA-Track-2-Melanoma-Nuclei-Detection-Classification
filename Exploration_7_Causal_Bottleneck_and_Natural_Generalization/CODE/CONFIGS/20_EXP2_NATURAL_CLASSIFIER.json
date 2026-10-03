@@ -1,0 +1,22 @@
+{
+  "id": "H7.2",
+  "hypothesis": "Frozen Gaussian/Tier-A representation contains more natural-distribution information than the inverse-sampled classifier boundary expresses.",
+  "intervention": "cRT-style output-layer relearning: freeze Prompt6 ph/pb; reset/retrain W/R with natural sampling + CE",
+  "control": "frozen Prompt6 head",
+  "epochs": 10,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "batch_size": 64,
+  "primary": "new natural test ROI fixed10 macro-F1",
+  "success": "paired ROI bootstrap CI >0; no class recall harm >0.10; false-positive inflation materially reduced",
+  "seed_replication": {
+    "primary": 17,
+    "replicate": [
+      29,
+      43
+    ],
+    "policy": "on_primary_pass",
+    "same_settings_across_seeds": true,
+    "ensemble": false
+  }
+}

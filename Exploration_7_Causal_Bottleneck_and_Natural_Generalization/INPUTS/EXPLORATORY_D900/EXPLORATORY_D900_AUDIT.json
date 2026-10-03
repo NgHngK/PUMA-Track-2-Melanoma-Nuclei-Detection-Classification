@@ -1,0 +1,40 @@
+{
+  "status": "EXPLORATORY_ONLY_NOT_CONFIRMATORY",
+  "source": "Prompt-6 D900.csv",
+  "source_path": "C:\\Users\\Hngk\\Downloads\\PUMA_STAGE2_COLAB-20260913T092151Z-1-001\\PUMA_STAGE2_COLAB\\INPUTS\\DATA_PRESELECTION\\SELECTION\\D900.csv",
+  "source_sha256": "d541ed0c492dc652477844cacc64c4b32db840d2d7a8a26c1c5c21df6411bbed",
+  "source_exposure": "All rows and ROI groups were used or opened during Prompt 6.",
+  "role_mapping": {
+    "train": "train",
+    "dev": "calibration",
+    "locked": "test"
+  },
+  "colab_image_root": "/content/drive/MyDrive/Research/PUMA/PUMA_STAGE2_COLAB/INPUTS/RAW/01_training_dataset_tif_ROIs",
+  "manifests": {
+    "train": {
+      "path": "C:\\Users\\Hngk\\Documents\\Codex\\PUMA_STAGE2\\Exploration_7_Causal_Bottleneck_and_Natural_Generalization\\INPUTS\\EXPLORATORY_D900\\prompt7_natural_train_manifest.csv",
+      "sha256": "395a37f41ccbdd44ee858bb7858e833b35ee46d15c963d52c82450e96fd8f4bc",
+      "rows": 900,
+      "rois": 61,
+      "groups": 61,
+      "classes": 10
+    },
+    "calibration": {
+      "path": "C:\\Users\\Hngk\\Documents\\Codex\\PUMA_STAGE2\\Exploration_7_Causal_Bottleneck_and_Natural_Generalization\\INPUTS\\EXPLORATORY_D900\\prompt7_natural_calibration_manifest.csv",
+      "sha256": "8855af7ffaf0cc7d0169622208d165c2438c1fa46378d68e558c0369cd454ba1",
+      "rows": 225,
+      "rois": 56,
+      "groups": 56,
+      "classes": 10
+    },
+    "test": {
+      "path": "C:\\Users\\Hngk\\Documents\\Codex\\PUMA_STAGE2\\Exploration_7_Causal_Bottleneck_and_Natural_Generalization\\INPUTS\\EXPLORATORY_D900\\prompt7_natural_test_manifest.csv",
+      "sha256": "c4072a534c4cd423a545a1e4f43a457ca589158cfab5c302fbdc5744f36b197a",
+      "rows": 225,
+      "rois": 64,
+      "groups": 64,
+      "classes": 10
+    }
+  },
+  "warning": "Use only to test the Prompt-7 pipeline. Do not report resulting metrics as prospective, external, or confirmatory."
+}

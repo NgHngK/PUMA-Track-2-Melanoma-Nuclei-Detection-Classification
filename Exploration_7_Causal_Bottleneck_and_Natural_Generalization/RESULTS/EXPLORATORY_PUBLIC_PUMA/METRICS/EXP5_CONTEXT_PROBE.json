@@ -1,0 +1,781 @@
+{
+  "group_column": "group",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "per_seed": {
+    "17": {
+      "local": [
+        {
+          "fold": 0,
+          "macro_f1": 0.4493044755986871,
+          "accuracy": 0.5729674796747968
+        },
+        {
+          "fold": 1,
+          "macro_f1": 0.40473501127111094,
+          "accuracy": 0.6284164406426038
+        },
+        {
+          "fold": 2,
+          "macro_f1": 0.40643450910122053,
+          "accuracy": 0.6436918201624084
+        }
+      ],
+      "local_plus_context": [
+        {
+          "fold": 0,
+          "macro_f1": 0.5106368309743485,
+          "accuracy": 0.6522357723577236
+        },
+        {
+          "fold": 1,
+          "macro_f1": 0.4765161170787603,
+          "accuracy": 0.6319632797830169
+        },
+        {
+          "fold": 2,
+          "macro_f1": 0.4592152171707965,
+          "accuracy": 0.7114280055456526
+        }
+      ],
+      "capacity_placebo_local_plus_shuffled_context": [
+        {
+          "fold": 0,
+          "macro_f1": 0.4519036424565333,
+          "accuracy": 0.5829268292682926
+        },
+        {
+          "fold": 1,
+          "macro_f1": 0.4305975058842906,
+          "accuracy": 0.611308157730023
+        },
+        {
+          "fold": 2,
+          "macro_f1": 0.4101130930399094,
+          "accuracy": 0.6533967122202416
+        }
+      ],
+      "fold_deltas_vs_local": [
+        0.06133235537566145,
+        0.07178110580764935,
+        0.052780708069575966
+      ],
+      "fold_deltas_vs_placebo": [
+        0.05873318851781523,
+        0.045918611194469716,
+        0.049102124130887104
+      ],
+      "pairs": {
+        "7_0": {
+          "local": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9968572128456602
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9830754000923849
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9368892633730213
+              }
+            ]
+          },
+          "local_plus_context": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9989436837785332
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9817214318527236
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9647610476670853
+              }
+            ]
+          },
+          "capacity_placebo": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9967062925169693
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9803098617431505
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9205135626570105
+              }
+            ]
+          }
+        },
+        "0_1": {
+          "local": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9351537897400942
+              },
+              {
+                "fold": 1,
+                "auprc": 0.8827909284182268
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9576226621456158
+              }
+            ]
+          },
+          "local_plus_context": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9742197614941178
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9396238501809082
+              },
+              {
+                "fold": 2,
+                "auprc": 0.981651218294947
+              }
+            ]
+          },
+          "capacity_placebo": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9432351004920778
+              },
+              {
+                "fold": 1,
+                "auprc": 0.8929962884010461
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9552103360306393
+              }
+            ]
+          }
+        },
+        "0_3": {
+          "local": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.7827307423192008
+              },
+              {
+                "fold": 1,
+                "auprc": 0.8109758307408239
+              },
+              {
+                "fold": 2,
+                "auprc": 0.8077460161965628
+              }
+            ]
+          },
+          "local_plus_context": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.8336203963847565
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9417294052187716
+              },
+              {
+                "fold": 2,
+                "auprc": 0.922349925886187
+              }
+            ]
+          },
+          "capacity_placebo": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.7824967588007058
+              },
+              {
+                "fold": 1,
+                "auprc": 0.7858748579121969
+              },
+              {
+                "fold": 2,
+                "auprc": 0.8220030042717426
+              }
+            ]
+          }
+        },
+        "5_9": {
+          "local": {
+            "status": "unavailable",
+            "reason": "This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)",
+            "folds": []
+          },
+          "local_plus_context": {
+            "status": "unavailable",
+            "reason": "This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)",
+            "folds": []
+          },
+          "capacity_placebo": {
+            "status": "unavailable",
+            "reason": "This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)",
+            "folds": []
+          }
+        }
+      },
+      "seed": 17
+    },
+    "29": {
+      "local": [
+        {
+          "fold": 0,
+          "macro_f1": 0.3930987539738413,
+          "accuracy": 0.519650655021834
+        },
+        {
+          "fold": 1,
+          "macro_f1": 0.45734744823450885,
+          "accuracy": 0.6336633663366337
+        },
+        {
+          "fold": 2,
+          "macro_f1": 0.30479065476213696,
+          "accuracy": 0.6065380070894053
+        }
+      ],
+      "local_plus_context": [
+        {
+          "fold": 0,
+          "macro_f1": 0.4273489376413431,
+          "accuracy": 0.5984517665740373
+        },
+        {
+          "fold": 1,
+          "macro_f1": 0.48696873740326324,
+          "accuracy": 0.6465777012483858
+        },
+        {
+          "fold": 2,
+          "macro_f1": 0.3375592017738964,
+          "accuracy": 0.6126427727451753
+        }
+      ],
+      "capacity_placebo_local_plus_shuffled_context": [
+        {
+          "fold": 0,
+          "macro_f1": 0.39480987747148516,
+          "accuracy": 0.5581579992060341
+        },
+        {
+          "fold": 1,
+          "macro_f1": 0.45464055524875296,
+          "accuracy": 0.6246233318984072
+        },
+        {
+          "fold": 2,
+          "macro_f1": 0.3168698434837117,
+          "accuracy": 0.5974793225679401
+        }
+      ],
+      "fold_deltas_vs_local": [
+        0.034250183667501766,
+        0.029621289168754394,
+        0.032768547011759463
+      ],
+      "fold_deltas_vs_placebo": [
+        0.032539060169857914,
+        0.03232818215451028,
+        0.0206893582901847
+      ],
+      "pairs": {
+        "7_0": {
+          "local": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9658629563824722
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9836180179865923
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9837981012373403
+              }
+            ]
+          },
+          "local_plus_context": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9873285845135749
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9775056488393514
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9924956148441856
+              }
+            ]
+          },
+          "capacity_placebo": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9764468596031453
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9807114082921558
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9787189219992324
+              }
+            ]
+          }
+        },
+        "0_1": {
+          "local": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9265435967068074
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9097402461455283
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9674635341886044
+              }
+            ]
+          },
+          "local_plus_context": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9600186105447771
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9502382668747521
+              },
+              {
+                "fold": 2,
+                "auprc": 0.991184063013576
+              }
+            ]
+          },
+          "capacity_placebo": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9335984242983248
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9012177273019356
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9706028043638616
+              }
+            ]
+          }
+        },
+        "0_3": {
+          "local": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.6427747614975886
+              },
+              {
+                "fold": 1,
+                "auprc": 0.8404960561357284
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9192655572851456
+              }
+            ]
+          },
+          "local_plus_context": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.8402550960784774
+              },
+              {
+                "fold": 1,
+                "auprc": 0.8749650234039507
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9508832738661023
+              }
+            ]
+          },
+          "capacity_placebo": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.6421737766946268
+              },
+              {
+                "fold": 1,
+                "auprc": 0.8373276008784974
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9020912235660651
+              }
+            ]
+          }
+        },
+        "5_9": {
+          "local": {
+            "status": "unavailable",
+            "reason": "This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)",
+            "folds": []
+          },
+          "local_plus_context": {
+            "status": "unavailable",
+            "reason": "This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)",
+            "folds": []
+          },
+          "capacity_placebo": {
+            "status": "unavailable",
+            "reason": "This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)",
+            "folds": []
+          }
+        }
+      },
+      "seed": 29
+    },
+    "43": {
+      "local": [
+        {
+          "fold": 0,
+          "macro_f1": 0.460904769265572,
+          "accuracy": 0.7093486223921006
+        },
+        {
+          "fold": 1,
+          "macro_f1": 0.37316028227171305,
+          "accuracy": 0.5610757544652022
+        },
+        {
+          "fold": 2,
+          "macro_f1": 0.42242681345419014,
+          "accuracy": 0.5633997785160576
+        }
+      ],
+      "local_plus_context": [
+        {
+          "fold": 0,
+          "macro_f1": 0.5475661530945166,
+          "accuracy": 0.7649307214524605
+        },
+        {
+          "fold": 1,
+          "macro_f1": 0.43392433969877875,
+          "accuracy": 0.5910490659002259
+        },
+        {
+          "fold": 2,
+          "macro_f1": 0.49539204522135305,
+          "accuracy": 0.6290143964562569
+        }
+      ],
+      "capacity_placebo_local_plus_shuffled_context": [
+        {
+          "fold": 0,
+          "macro_f1": 0.4695529798253876,
+          "accuracy": 0.7074374900461857
+        },
+        {
+          "fold": 1,
+          "macro_f1": 0.36183062631424495,
+          "accuracy": 0.5428043522890577
+        },
+        {
+          "fold": 2,
+          "macro_f1": 0.44505630394137263,
+          "accuracy": 0.5772425249169435
+        }
+      ],
+      "fold_deltas_vs_local": [
+        0.08666138382894462,
+        0.0607640574270657,
+        0.07296523176716291
+      ],
+      "fold_deltas_vs_placebo": [
+        0.07801317326912904,
+        0.0720937133845338,
+        0.05033574127998042
+      ],
+      "pairs": {
+        "7_0": {
+          "local": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9740121510708487
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9790660567951373
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9882264679079346
+              }
+            ]
+          },
+          "local_plus_context": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.981610482749955
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9677359404235737
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9955211720339883
+              }
+            ]
+          },
+          "capacity_placebo": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9693303556372586
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9776255304687833
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9897984525058156
+              }
+            ]
+          }
+        },
+        "0_1": {
+          "local": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9409383244577403
+              },
+              {
+                "fold": 1,
+                "auprc": 0.8339837855839232
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9755149410775165
+              }
+            ]
+          },
+          "local_plus_context": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9711189308544084
+              },
+              {
+                "fold": 1,
+                "auprc": 0.8953828046873195
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9899436789815039
+              }
+            ]
+          },
+          "capacity_placebo": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.9481454380007711
+              },
+              {
+                "fold": 1,
+                "auprc": 0.8348149175695083
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9759578067804848
+              }
+            ]
+          }
+        },
+        "0_3": {
+          "local": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.7888678237123891
+              },
+              {
+                "fold": 1,
+                "auprc": 0.7094441260848535
+              },
+              {
+                "fold": 2,
+                "auprc": 0.7456771552708537
+              }
+            ]
+          },
+          "local_plus_context": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.8653171470190141
+              },
+              {
+                "fold": 1,
+                "auprc": 0.9144432837974839
+              },
+              {
+                "fold": 2,
+                "auprc": 0.8817462147990964
+              }
+            ]
+          },
+          "capacity_placebo": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.8024769501080083
+              },
+              {
+                "fold": 1,
+                "auprc": 0.7407920402283057
+              },
+              {
+                "fold": 2,
+                "auprc": 0.7149796941133114
+              }
+            ]
+          }
+        },
+        "5_9": {
+          "local": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.7922749054236229
+              },
+              {
+                "fold": 1,
+                "auprc": 1.0
+              },
+              {
+                "fold": 2,
+                "auprc": 0.8925641168777663
+              }
+            ]
+          },
+          "local_plus_context": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.7578501243760603
+              },
+              {
+                "fold": 1,
+                "auprc": 1.0
+              },
+              {
+                "fold": 2,
+                "auprc": 0.9248939625858866
+              }
+            ]
+          },
+          "capacity_placebo": {
+            "status": "ok",
+            "folds": [
+              {
+                "fold": 0,
+                "auprc": 0.7420144042219508
+              },
+              {
+                "fold": 1,
+                "auprc": 1.0
+              },
+              {
+                "fold": 2,
+                "auprc": 0.8938567379152278
+              }
+            ]
+          }
+        }
+      },
+      "seed": 43
+    }
+  },
+  "mean_delta_vs_local": 0.0558805402360084,
+  "seed_mean_deltas_vs_local": [
+    0.06196472308429559,
+    0.03221333994933854,
+    0.07346355767439107
+  ],
+  "min_seed_mean_delta_vs_local": 0.03221333994933854,
+  "all_seed_mean_deltas_positive": true,
+  "mean_delta_vs_placebo": 0.04886146137681869
+}

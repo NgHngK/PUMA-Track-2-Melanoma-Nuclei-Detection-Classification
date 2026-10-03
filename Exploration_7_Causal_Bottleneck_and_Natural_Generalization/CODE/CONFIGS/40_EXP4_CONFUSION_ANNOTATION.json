@@ -1,0 +1,25 @@
+{
+  "id": "H7.4",
+  "hypothesis": "Some residual errors are label ambiguity/ontology problems rather than classifier errors.",
+  "pairs": [
+    [
+      "epithelium",
+      "tumor"
+    ],
+    [
+      "tumor",
+      "lymphocyte"
+    ],
+    [
+      "tumor",
+      "histiocyte"
+    ],
+    [
+      "neutrophil",
+      "apoptosis"
+    ]
+  ],
+  "review": "blinded expert review of high-confidence wrong, low-margin wrong, and pair-specific samples",
+  "primary": "inter-reviewer agreement and original-label confirmation rate",
+  "note": "software generates blinded/key CSVs; scientific conclusion requires human pathology review"
+}
