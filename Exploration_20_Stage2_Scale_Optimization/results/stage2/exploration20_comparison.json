@@ -1,0 +1,54 @@
+{
+  "exploration": 20,
+  "evaluation": "GT-centroid Stage 2 ROI F1 (NOT Stage 1 + Stage 2 detection F1)",
+  "primary_metric": "mean of per-plan out-of-fold roi_f1",
+  "checkpoint_selection": "original val_macro_f1, NOT val ROI F1",
+  "variants": {
+    "G3": {
+      "mean_plan_roi_f1": 0.8488449906057792,
+      "mean_plan_macro_f1_nuclei": 0.30777412426784506,
+      "plans": {
+        "A": {
+          "plan": "A",
+          "mode": "G3",
+          "rois": 205,
+          "nuclei": 96970,
+          "roi_f1": 0.8502681193140137,
+          "macro_f1_nuclei": 0.3089276067278249
+        },
+        "B": {
+          "plan": "B",
+          "mode": "G3",
+          "rois": 206,
+          "nuclei": 97429,
+          "roi_f1": 0.8474218618975448,
+          "macro_f1_nuclei": 0.30662064180786525
+        }
+      }
+    },
+    "GAT": {
+      "mean_plan_roi_f1": 0.8439755342047063,
+      "mean_plan_macro_f1_nuclei": 0.3062476645557396,
+      "plans": {
+        "A": {
+          "plan": "A",
+          "mode": "GAT",
+          "rois": 205,
+          "nuclei": 96970,
+          "roi_f1": 0.846348425807668,
+          "macro_f1_nuclei": 0.3082846751250762
+        },
+        "B": {
+          "plan": "B",
+          "mode": "GAT",
+          "rois": 206,
+          "nuclei": 97429,
+          "roi_f1": 0.8416026426017446,
+          "macro_f1_nuclei": 0.304210653986403
+        }
+      }
+    }
+  },
+  "winner": "G3",
+  "difference_gat_minus_g3": -0.004869456401072947
+}
